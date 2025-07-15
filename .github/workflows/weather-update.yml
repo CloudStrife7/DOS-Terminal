@@ -1,0 +1,83 @@
+name: Update Weather Data
+
+# When to run this workflow
+on:
+  schedule:
+    # Every 5 minutes (WeatherAPI has 1M calls/month - plenty of headroom)
+    - cron: '*/5 * * * *'
+  # Allow manual triggering from GitHub Actions tab
+  workflow_dispatch:
+  # Run on pushes to main branch (for testing)
+  push:
+    branches: [ main ]
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Checkout your repository files
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    # Fetch weather data from WeatherAPI
+    - name: Fetch Weather Data
+      run: |
+        # Create api/weather directory if it doesn't exist
+        mkdir -p api/weather
+        
+        # Fetch current weather for Fond du Lac, WI
+        curl -s "http://api.weatherapi.com/v1/current.json?key=${{ secrets.WEATHER_API_KEY }}&q=Fond%20du%20Lac,%20WI" \
+        | jq '{
+          temperature: (.current.temp_f | round | tostring + "°F"),
+          condition: .current.condition.text,
+          location: "Fond du Lac, WI", 
+          timestamp: (now | strftime("%Y-%m-%d %H:%M:%S")),
+          last_updated: now,
+          status: "online"
+        }' > api/weather/current.json
+        
+        # Verify the file was created successfully
+        echo "Weather data updated:"
+        cat api/weather/current.json
+    
+    # Handle API failures gracefully
+    - name: Create Fallback Data on API Failure
+      if: failure()
+      run: |
+        mkdir -p api/weather
+        echo '{
+          "temperature": "73°F",
+          "condition": "Data Unavailable", 
+          "location": "Fond du Lac, WI",
+          "timestamp": "'$(date -u +"%Y-%m-%d %H:%M:%S")'",
+          "last_updated": '$(date +%s)',
+          "status": "offline"
+        }' > api/weather/current.json
+        
+        echo "Created fallback weather data due to API failure"
+    
+    # Commit the updated weather data back to repository
+    - name: Commit Weather Updates
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "Weather Bot"
+        
+        # Add the updated file
+        git add api/weather/current.json
+        
+        # Only commit if there are changes
+        if git diff --staged --quiet; then
+          echo "No weather data changes to commit"
+        else
+          git commit -m "🌤️ Auto-update weather data - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+          echo "Weather data committed and pushed"
+        fi
+
+# Optional: Set a timeout to prevent long-running workflows
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
