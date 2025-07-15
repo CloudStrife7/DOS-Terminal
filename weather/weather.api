@@ -1,0 +1,32 @@
+<?php
+header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
+
+$weatherAPIKey = "YOUR_WEATHERAPI_KEY_HERE";
+$location = "Fond du Lac, WI";
+$url = "http://api.weatherapi.com/v1/current.json?key={$weatherAPIKey}&q={$location}";
+
+$response = file_get_contents($url);
+$data = json_decode($response, true);
+
+if ($data && isset($data['current'])) {
+    $weather = [
+        'temperature' => round($data['current']['temp_f']) . '°F',
+        'condition' => $data['current']['condition']['text'],
+        'location' => $location,
+        'timestamp' => date('Y-m-d H:i')
+    ];
+    
+    // Save to weather.json for VRChat access
+    file_put_contents('weather.json', json_encode($weather));
+    echo json_encode($weather);
+} else {
+    // Fallback data
+    echo json_encode([
+        'temperature' => '73°F',
+        'condition' => 'Data Unavailable',
+        'location' => $location,
+        'timestamp' => date('Y-m-d H:i')
+    ]);
+}
+?>
