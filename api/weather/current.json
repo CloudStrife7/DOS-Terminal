@@ -1,8 +1,8 @@
 {
-  "temperature": "78°F",
-  "condition": "Partly Cloudy",
+  "temperature": "77°F",
+  "condition": "Sunny",
   "location": "Fond du Lac, WI",
-  "timestamp": "2025-09-14 17:55:48",
-  "last_updated": 1757872548.021788,
+  "timestamp": "2025-09-14 18:13:39",
+  "last_updated": 1757873619.810735,
   "status": "online"
 }
