@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-16T22:47:02.413403Z",
+  "generated": "2025-11-16T22:59:06.930752Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -10,42 +10,55 @@
   },
   "releases": [
     {
-      "version": "1.5.1",
-      "title": "ADD SCROLLABLE CHANGELOG",
+      "version": "1.5.0",
+      "title": "ADD TEXT WRAPPING",
       "date": "2025-11-16",
       "featured": false,
       "sections": [
         {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Add text wrapping + comprehensive\n     changelog documentation"
+          ]
+        },
+        {
           "icon": "✨",
           "title": "New Feature",
           "items": [
-            "Add scrollable changelog with full-text display",
-            "Automated changelog system with GitHub Pages integration"
+            "Add scrollable changelog with full-text\n     display",
+            "Automated changelog system with GitHub\n     Pages integration"
           ]
         },
         {
           "icon": "🐛",
           "title": "Bug Fixes",
           "items": [
-            "Update changelog to use public DOS-Terminal repo"
+            "Update changelog to use public\n     DOS-Terminal repo"
           ]
         },
         {
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Restore working Phase 5 state after failed modularization attempt"
+            "Restore working Phase 5 state after\n     failed modularization attempt"
           ]
         },
         {
           "icon": "♻️",
           "title": "Code Refactoring",
           "items": [
-            "Extract BootSequence module (Phase 5) + cleanup + fixes"
+            "Extract BootSequence module (Phase 5) +\n     cleanup + fixes"
           ]
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-16",
+          "type": "docs",
+          "message": "Add text wrapping + comprehensive changelog documentation",
+          "body": "Text Wrapping Fix:"
+        },
         {
           "date": "2025-11-16",
           "type": "feat",
@@ -79,7 +92,7 @@
       ]
     },
     {
-      "version": "1.5.1",
+      "version": "1.5.0",
       "title": "SILENCE SNAKEPIXELPOSITION ONVALIDATE()",
       "date": "2025-11-15",
       "featured": false,
@@ -88,22 +101,22 @@
           "icon": "🐛",
           "title": "Bug Fixes",
           "items": [
-            "Silence SnakePixelPosition OnValidate() console spam",
-            "Heavy Rain achievement flow + Phase 4 weather module complete"
+            "Silence SnakePixelPosition OnValidate()\n     console spam",
+            "Heavy Rain achievement flow + Phase 4\n     weather module complete"
           ]
         },
         {
           "icon": "📝",
           "title": "Documentation",
           "items": [
-            "Enhance CLAUDE.md with streamlined project-specific guidelines"
+            "Enhance CLAUDE.md with streamlined\n     project-specific guidelines"
           ]
         },
         {
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Refactor weather system into modular DT_WeatherModule"
+            "Refactor weather system into modular\n     DT_WeatherModule"
           ]
         }
       ],
@@ -135,7 +148,7 @@
       ]
     },
     {
-      "version": "1.5.1",
+      "version": "1.5.0",
       "title": "MENU SYSTEM",
       "date": "2025-11-14",
       "featured": false,
@@ -144,45 +157,44 @@
           "icon": "📝",
           "title": "Documentation",
           "items": [
-            "Update DOSTerminalController.md for v29 menu system",
-            "Add comprehensive DOSTerminalController modularization plan",
-            "reformat deployment sections with latest-first ordering"
+            "Update DOSTerminalController.md for v29\n     menu system",
+            "Add comprehensive DOSTerminalController\n     modularization plan"
           ]
         },
         {
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Add Story Database file to Terminal Tales",
+            "Add Story Database file to Terminal\n     Tales",
             "Story Database",
-            "Update Story Creation Prompt to version 2",
+            "Update Story Creation Prompt to version\n     2",
             "Rename Interface Style Guide file",
-            "Rename Story Creation Prompt to Story Creation Prompt",
-            "Rename TerminalTalesTerminal Tales Story Creation Prompt to Story Creation Prompt",
-            "Rename Docs/📟 Lower Level 2.0 Terminal Interface Style Guide to Docs/TerminalTales/📟 Lower Level 2.0 Terminal Interface Style Guide",
-            "Create guide for Terminal Tales story prompts",
-            "Revert 'refactor: Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)'",
-            "Merge remote-tracking branch 'origin/claude/vr-agent-workflow-enhancement-01Udki7CVM5aPmoNbiBU62w4' into modularize-dos-terminal",
-            "Implement Phase 1 workflow automation for VR development",
-            "Add comprehensive project structure and automation analysis",
-            "Merge pull request #29 from CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v"
+            "Rename Story Creation Prompt to Story\n     Creation Prompt",
+            "Rename TerminalTalesTerminal Tales Story\n     Creation Prompt to Story Creation Prompt",
+            "Rename Docs/📟 Lower Level 2.0 Terminal\n     Interface Style Guide to\n     Docs/TerminalTales/📟 Lower Level 2.0\n     Terminal Interface Style Guide",
+            "Create guide for Terminal Tales story\n     prompts",
+            "Revert 'refactor: Extract CacheManager\n     module + fix SendCustomEvent bug (Phase\n     3 complete)'",
+            "Merge remote-tracking branch\n     'origin/claude/vr-agent-workflow-enhancement-01Udki7CVM5aPmoNbiBU62w4'\n     into modularize-dos-terminal",
+            "Implement Phase 1 workflow automation\n     for VR development",
+            "Add comprehensive project structure and\n     automation analysis",
+            "Merge pull request #29 from\n     CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v"
           ]
         },
         {
           "icon": "♻️",
           "title": "Code Refactoring",
           "items": [
-            "Extract CacheManager module (Phase 3 complete)",
-            "Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)",
-            "Extract RemoteContent module (Phase 2 complete)",
-            "Extract RainShader module (Phase 1 complete)"
+            "Extract CacheManager module (Phase 3\n     complete)",
+            "Extract CacheManager module + fix\n     SendCustomEvent bug (Phase 3 complete)",
+            "Extract RemoteContent module (Phase 2\n     complete)",
+            "Extract RainShader module (Phase 1\n     complete)"
           ]
         },
         {
           "icon": "🐛",
           "title": "Bug Fixes",
           "items": [
-            "Improve UdonSharp validation script for Windows"
+            "Improve UdonSharp validation script for\n     Windows"
           ]
         }
       ],
@@ -306,12 +318,6 @@
           "type": "docs",
           "message": "Add comprehensive DOSTerminalController modularization plan",
           "body": "- Hermeneutic circle approach for understanding parts and whole"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "docs",
-          "message": "reformat deployment sections with latest-first ordering",
-          "body": "Reorganized RECENT DEPLOYMENTS section:"
         }
       ]
     }
