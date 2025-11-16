@@ -1,0 +1,323 @@
+{
+  "version": "1.0",
+  "generated": "2025-11-16T21:51:25.032954Z",
+  "formatting": {
+    "dividerWidth": 45,
+    "dividerChar": "═",
+    "sectionDividerChar": "─",
+    "indentSpaces": 3,
+    "bulletChar": "•"
+  },
+  "releases": [
+    {
+      "version": "1.5.0",
+      "title": "UPDATE CHANGELOG TO",
+      "date": "2025-11-16",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "Update changelog to use public DOS-Te..."
+          ]
+        },
+        {
+          "icon": "✨",
+          "title": "New Feature",
+          "items": [
+            "Automated changelog system with GitHu..."
+          ]
+        },
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Restore working Phase 5 state after f..."
+          ]
+        },
+        {
+          "icon": "♻️",
+          "title": "Code Refactoring",
+          "items": [
+            "Extract BootSequence module (Phase 5)..."
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-16",
+          "type": "fix",
+          "message": "Update changelog to use public DOS-Terminal repo",
+          "body": "Changed changelog deployment from private LL2PCVR repo to public DOS-Terminal repo"
+        },
+        {
+          "date": "2025-11-16",
+          "type": "feat",
+          "message": "Automated changelog system with GitHub Pages integration",
+          "body": "Implemented automated changelog generation from git commits, published to"
+        },
+        {
+          "date": "2025-11-16",
+          "type": "chore",
+          "message": "Restore working Phase 5 state after failed modularization attempt",
+          "body": "Reverted DOSTerminalController.cs to commit ed94d31d (Phase 5 - BootSequence module)."
+        },
+        {
+          "date": "2025-11-16",
+          "type": "refactor",
+          "message": "Extract BootSequence module (Phase 5) + cleanup + fixes",
+          "body": "Phase 5 Complete: DT_BootSequence extraction (190 lines)"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "SILENCE SNAKEPIXELPOSITION ONVALIDATE()",
+      "date": "2025-11-15",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "Silence SnakePixelPosition OnValidate...",
+            "Heavy Rain achievement flow + Phase 4..."
+          ]
+        },
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Enhance CLAUDE.md with streamlined pr..."
+          ]
+        },
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Refactor weather system into modular ..."
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-15",
+          "type": "fix",
+          "message": "Silence SnakePixelPosition OnValidate() console spam",
+          "body": "Problem:"
+        },
+        {
+          "date": "2025-11-15",
+          "type": "fix",
+          "message": "Heavy Rain achievement flow + Phase 4 weather module complete",
+          "body": "BREAKING FIX - Heavy Rain Achievement:"
+        },
+        {
+          "date": "2025-11-15",
+          "type": "docs",
+          "message": "Enhance CLAUDE.md with streamlined project-specific guidelines",
+          "body": "- Add hermeneutic circle methodology for complex problem-solving"
+        },
+        {
+          "date": "2025-11-15",
+          "type": "chore",
+          "message": "Refactor weather system into modular DT_WeatherModule",
+          "body": "- Extract weather functionality from DOSTerminalController to DT_WeatherModule"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "MENU SYSTEM",
+      "date": "2025-11-14",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Update DOSTerminalController.md for v...",
+            "Add comprehensive DOSTerminalControll...",
+            "reformat deployment sections with lat...",
+            "add DOS Terminal v29 deployment summa..."
+          ]
+        },
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Add Story Database file to Terminal T...",
+            "Story Database",
+            "Update Story Creation Prompt to versi...",
+            "Rename Interface Style Guide file",
+            "Rename Story Creation Prompt to Story...",
+            "Rename TerminalTalesTerminal Tales St...",
+            "Rename Docs/📟 Lower Level 2.0 Termina...",
+            "Create guide for Terminal Tales story...",
+            "Revert 'refactor: Extract CacheManage...",
+            "Merge remote-tracking branch 'origin/...",
+            "Implement Phase 1 workflow automation...",
+            "Add comprehensive project structure a...",
+            "Merge pull request #29 from CloudStri..."
+          ]
+        },
+        {
+          "icon": "♻️",
+          "title": "Code Refactoring",
+          "items": [
+            "Extract CacheManager module (Phase 3 ...",
+            "Extract CacheManager module + fix Sen...",
+            "Extract RemoteContent module (Phase 2...",
+            "Extract RainShader module (Phase 1 co..."
+          ]
+        },
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "Improve UdonSharp validation script f..."
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-14",
+          "type": "docs",
+          "message": "Update DOSTerminalController.md for v29 menu system",
+          "body": "Updated documentation to reflect v29 major changes:"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Add Story Database file to Terminal Tales",
+          "body": ""
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Story Database",
+          "body": "needs to be reorganized and hosted remotely in JSON file"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Update Story Creation Prompt to version 2",
+          "body": ""
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Rename Interface Style Guide file",
+          "body": ""
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Rename Story Creation Prompt to Story Creation Prompt",
+          "body": ""
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Rename TerminalTalesTerminal Tales Story Creation Prompt to Story Creation Prompt",
+          "body": ""
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Rename Docs/📟 Lower Level 2.0 Terminal Interface Style Guide to Docs/TerminalTales/📟 Lower Level 2.0 Terminal Interface Style Guide",
+          "body": ""
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Create guide for Terminal Tales story prompts",
+          "body": "Added a comprehensive guide for creating Terminal Tales stories, detailing structure, length requirements, and thematic elements."
+        },
+        {
+          "date": "2025-11-14",
+          "type": "refactor",
+          "message": "Extract CacheManager module (Phase 3 complete)",
+          "body": "Phase 3 Modularization:"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Revert 'refactor: Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)'",
+          "body": ""
+        },
+        {
+          "date": "2025-11-14",
+          "type": "refactor",
+          "message": "Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)",
+          "body": "Phase 3 Modularization:"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "fix",
+          "message": "Improve UdonSharp validation script for Windows",
+          "body": "- Add UTF-8 encoding support for Windows console (fixes emoji rendering)"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Merge remote-tracking branch 'origin/claude/vr-agent-workflow-enhancement-01Udki7CVM5aPmoNbiBU62w4' into modularize-dos-terminal",
+          "body": ""
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Implement Phase 1 workflow automation for VR development",
+          "body": "Added comprehensive automation system to streamline VR development workflow:"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Add comprehensive project structure and automation analysis",
+          "body": "Generated detailed analysis of VR project including:"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "refactor",
+          "message": "Extract RemoteContent module (Phase 2 complete)",
+          "body": "Extracted remote content loading and storage from DOSTerminalController"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "refactor",
+          "message": "Extract RainShader module (Phase 1 complete)",
+          "body": "Extracted rain shader control logic from DOSTerminalController into"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "chore",
+          "message": "Merge pull request #29 from CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v",
+          "body": "docs: Add comprehensive DOSTerminalController modularization plan"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "docs",
+          "message": "Add comprehensive DOSTerminalController modularization plan",
+          "body": "- Hermeneutic circle approach for understanding parts and whole"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "docs",
+          "message": "reformat deployment sections with latest-first ordering",
+          "body": "Reorganized RECENT DEPLOYMENTS section:"
+        },
+        {
+          "date": "2025-11-14",
+          "type": "docs",
+          "message": "add DOS Terminal v29 deployment summary to README",
+          "body": "Updated README.md with comprehensive deployment documentation for the"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "Full log: github.com/CloudStrife7/LL2PCVR",
+    "controls": "[Arrow ←] back to menu | [Space] exit"
+  }
+}
