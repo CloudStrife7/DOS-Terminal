@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-16T21:51:25.032954Z",
+  "generated": "2025-11-16T22:47:02.413403Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -10,41 +10,48 @@
   },
   "releases": [
     {
-      "version": "1.5.0",
-      "title": "UPDATE CHANGELOG TO",
+      "version": "1.5.1",
+      "title": "ADD SCROLLABLE CHANGELOG",
       "date": "2025-11-16",
       "featured": false,
       "sections": [
         {
-          "icon": "🐛",
-          "title": "Bug Fixes",
-          "items": [
-            "Update changelog to use public DOS-Te..."
-          ]
-        },
-        {
           "icon": "✨",
           "title": "New Feature",
           "items": [
-            "Automated changelog system with GitHu..."
+            "Add scrollable changelog with full-text display",
+            "Automated changelog system with GitHub Pages integration"
+          ]
+        },
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "Update changelog to use public DOS-Terminal repo"
           ]
         },
         {
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Restore working Phase 5 state after f..."
+            "Restore working Phase 5 state after failed modularization attempt"
           ]
         },
         {
           "icon": "♻️",
           "title": "Code Refactoring",
           "items": [
-            "Extract BootSequence module (Phase 5)..."
+            "Extract BootSequence module (Phase 5) + cleanup + fixes"
           ]
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-16",
+          "type": "feat",
+          "message": "Add scrollable changelog with full-text display",
+          "body": "Implemented page-based scrolling for DOS Terminal changelog:"
+        },
         {
           "date": "2025-11-16",
           "type": "fix",
@@ -72,7 +79,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "title": "SILENCE SNAKEPIXELPOSITION ONVALIDATE()",
       "date": "2025-11-15",
       "featured": false,
@@ -81,22 +88,22 @@
           "icon": "🐛",
           "title": "Bug Fixes",
           "items": [
-            "Silence SnakePixelPosition OnValidate...",
-            "Heavy Rain achievement flow + Phase 4..."
+            "Silence SnakePixelPosition OnValidate() console spam",
+            "Heavy Rain achievement flow + Phase 4 weather module complete"
           ]
         },
         {
           "icon": "📝",
           "title": "Documentation",
           "items": [
-            "Enhance CLAUDE.md with streamlined pr..."
+            "Enhance CLAUDE.md with streamlined project-specific guidelines"
           ]
         },
         {
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Refactor weather system into modular ..."
+            "Refactor weather system into modular DT_WeatherModule"
           ]
         }
       ],
@@ -128,7 +135,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "title": "MENU SYSTEM",
       "date": "2025-11-14",
       "featured": false,
@@ -137,46 +144,45 @@
           "icon": "📝",
           "title": "Documentation",
           "items": [
-            "Update DOSTerminalController.md for v...",
-            "Add comprehensive DOSTerminalControll...",
-            "reformat deployment sections with lat...",
-            "add DOS Terminal v29 deployment summa..."
+            "Update DOSTerminalController.md for v29 menu system",
+            "Add comprehensive DOSTerminalController modularization plan",
+            "reformat deployment sections with latest-first ordering"
           ]
         },
         {
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Add Story Database file to Terminal T...",
+            "Add Story Database file to Terminal Tales",
             "Story Database",
-            "Update Story Creation Prompt to versi...",
+            "Update Story Creation Prompt to version 2",
             "Rename Interface Style Guide file",
-            "Rename Story Creation Prompt to Story...",
-            "Rename TerminalTalesTerminal Tales St...",
-            "Rename Docs/📟 Lower Level 2.0 Termina...",
-            "Create guide for Terminal Tales story...",
-            "Revert 'refactor: Extract CacheManage...",
-            "Merge remote-tracking branch 'origin/...",
-            "Implement Phase 1 workflow automation...",
-            "Add comprehensive project structure a...",
-            "Merge pull request #29 from CloudStri..."
+            "Rename Story Creation Prompt to Story Creation Prompt",
+            "Rename TerminalTalesTerminal Tales Story Creation Prompt to Story Creation Prompt",
+            "Rename Docs/📟 Lower Level 2.0 Terminal Interface Style Guide to Docs/TerminalTales/📟 Lower Level 2.0 Terminal Interface Style Guide",
+            "Create guide for Terminal Tales story prompts",
+            "Revert 'refactor: Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)'",
+            "Merge remote-tracking branch 'origin/claude/vr-agent-workflow-enhancement-01Udki7CVM5aPmoNbiBU62w4' into modularize-dos-terminal",
+            "Implement Phase 1 workflow automation for VR development",
+            "Add comprehensive project structure and automation analysis",
+            "Merge pull request #29 from CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v"
           ]
         },
         {
           "icon": "♻️",
           "title": "Code Refactoring",
           "items": [
-            "Extract CacheManager module (Phase 3 ...",
-            "Extract CacheManager module + fix Sen...",
-            "Extract RemoteContent module (Phase 2...",
-            "Extract RainShader module (Phase 1 co..."
+            "Extract CacheManager module (Phase 3 complete)",
+            "Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)",
+            "Extract RemoteContent module (Phase 2 complete)",
+            "Extract RainShader module (Phase 1 complete)"
           ]
         },
         {
           "icon": "🐛",
           "title": "Bug Fixes",
           "items": [
-            "Improve UdonSharp validation script f..."
+            "Improve UdonSharp validation script for Windows"
           ]
         }
       ],
@@ -306,12 +312,6 @@
           "type": "docs",
           "message": "reformat deployment sections with latest-first ordering",
           "body": "Reorganized RECENT DEPLOYMENTS section:"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "docs",
-          "message": "add DOS Terminal v29 deployment summary to README",
-          "body": "Updated README.md with comprehensive deployment documentation for the"
         }
       ]
     }

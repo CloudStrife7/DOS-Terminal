@@ -2,67 +2,67 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - UPDATE CHANGELOG TO (2025-11-16)
+VERSION 1.5.1 - ADD SCROLLABLE CHANGELOG (2025-11-16)
 ─────────────────────────────────────────────
-🐛 Bug Fixes
-   • Update changelog to use public DOS-Te...
-
 ✨ New Feature
-   • Automated changelog system with GitHu...
+   • Add scrollable changelog with full-text display
+   • Automated changelog system with GitHub Pages integration
+
+🐛 Bug Fixes
+   • Update changelog to use public DOS-Terminal repo
 
 🔧 Updates
-   • Restore working Phase 5 state after f...
+   • Restore working Phase 5 state after failed modularization attempt
 
 ♻️ Code Refactoring
-   • Extract BootSequence module (Phase 5)...
+   • Extract BootSequence module (Phase 5) + cleanup + fixes
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - SILENCE SNAKEPIXELPOSITION ONVALIDATE() (2025-11-15)
+VERSION 1.5.1 - SILENCE SNAKEPIXELPOSITION ONVALIDATE() (2025-11-15)
 ─────────────────────────────────────────────
 🐛 Bug Fixes
-   • Silence SnakePixelPosition OnValidate...
-   • Heavy Rain achievement flow + Phase 4...
+   • Silence SnakePixelPosition OnValidate() console spam
+   • Heavy Rain achievement flow + Phase 4 weather module complete
 
 📝 Documentation
-   • Enhance CLAUDE.md with streamlined pr...
+   • Enhance CLAUDE.md with streamlined project-specific guidelines
 
 🔧 Updates
-   • Refactor weather system into modular ...
+   • Refactor weather system into modular DT_WeatherModule
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - MENU SYSTEM (2025-11-14)
+VERSION 1.5.1 - MENU SYSTEM (2025-11-14)
 ─────────────────────────────────────────────
 📝 Documentation
-   • Update DOSTerminalController.md for v...
-   • Add comprehensive DOSTerminalControll...
-   • reformat deployment sections with lat...
-   • add DOS Terminal v29 deployment summa...
+   • Update DOSTerminalController.md for v29 menu system
+   • Add comprehensive DOSTerminalController modularization plan
+   • reformat deployment sections with latest-first ordering
 
 🔧 Updates
-   • Add Story Database file to Terminal T...
+   • Add Story Database file to Terminal Tales
    • Story Database
-   • Update Story Creation Prompt to versi...
+   • Update Story Creation Prompt to version 2
    • Rename Interface Style Guide file
-   • Rename Story Creation Prompt to Story...
-   • Rename TerminalTalesTerminal Tales St...
-   • Rename Docs/📟 Lower Level 2.0 Termina...
-   • Create guide for Terminal Tales story...
-   • Revert 'refactor: Extract CacheManage...
-   • Merge remote-tracking branch 'origin/...
-   • Implement Phase 1 workflow automation...
-   • Add comprehensive project structure a...
-   • Merge pull request #29 from CloudStri...
+   • Rename Story Creation Prompt to Story Creation Prompt
+   • Rename TerminalTalesTerminal Tales Story Creation Prompt to Story Creation Prompt
+   • Rename Docs/📟 Lower Level 2.0 Terminal Interface Style Guide to Docs/TerminalTales/📟 Lower Level 2.0 Terminal Interface Style Guide
+   • Create guide for Terminal Tales story prompts
+   • Revert 'refactor: Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)'
+   • Merge remote-tracking branch 'origin/claude/vr-agent-workflow-enhancement-01Udki7CVM5aPmoNbiBU62w4' into modularize-dos-terminal
+   • Implement Phase 1 workflow automation for VR development
+   • Add comprehensive project structure and automation analysis
+   • Merge pull request #29 from CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v
 
 ♻️ Code Refactoring
-   • Extract CacheManager module (Phase 3 ...
-   • Extract CacheManager module + fix Sen...
-   • Extract RemoteContent module (Phase 2...
-   • Extract RainShader module (Phase 1 co...
+   • Extract CacheManager module (Phase 3 complete)
+   • Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)
+   • Extract RemoteContent module (Phase 2 complete)
+   • Extract RainShader module (Phase 1 complete)
 
 🐛 Bug Fixes
-   • Improve UdonSharp validation script f...
+   • Improve UdonSharp validation script for Windows
 
 ─────────────────────────────────────────────
 
