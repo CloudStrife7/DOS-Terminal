@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-16T22:59:06.930752Z",
+  "generated": "2025-11-18T03:01:08.011553Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -9,6 +9,29 @@
     "bulletChar": "•"
   },
   "releases": [
+    {
+      "version": "1.5.0",
+      "title": "CREATE ISSUEEXPORT",
+      "date": "2025-11-17",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Create IssueExport"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-17",
+          "type": "chore",
+          "message": "Create IssueExport",
+          "body": ""
+        }
+      ]
+    },
     {
       "version": "1.5.0",
       "title": "ADD TEXT WRAPPING",
@@ -157,8 +180,7 @@
           "icon": "📝",
           "title": "Documentation",
           "items": [
-            "Update DOSTerminalController.md for v29\n     menu system",
-            "Add comprehensive DOSTerminalController\n     modularization plan"
+            "Update DOSTerminalController.md for v29\n     menu system"
           ]
         },
         {
@@ -312,12 +334,6 @@
           "type": "chore",
           "message": "Merge pull request #29 from CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v",
           "body": "docs: Add comprehensive DOSTerminalController modularization plan"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "docs",
-          "message": "Add comprehensive DOSTerminalController modularization plan",
-          "body": "- Hermeneutic circle approach for understanding parts and whole"
         }
       ]
     }

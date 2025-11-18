@@ -2,6 +2,13 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
+VERSION 1.5.0 - CREATE ISSUEEXPORT (2025-11-17)
+─────────────────────────────────────────────
+🔧 Updates
+   • Create IssueExport
+
+─────────────────────────────────────────────
+
 VERSION 1.5.0 - ADD TEXT WRAPPING (2025-11-16)
 ─────────────────────────────────────────────
 📝 Documentation
@@ -51,8 +58,6 @@ VERSION 1.5.0 - MENU SYSTEM (2025-11-14)
 📝 Documentation
    • Update DOSTerminalController.md for v29
      menu system
-   • Add comprehensive DOSTerminalController
-     modularization plan
 
 🔧 Updates
    • Add Story Database file to Terminal
