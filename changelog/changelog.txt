@@ -5,6 +5,8 @@
 VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #83 from
+     CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp
    • Merge pull request #82 from
      CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa
    • Merge pull request #81 from
@@ -64,18 +66,24 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
 🔧 Updates
    • Add comprehensive test matrices for
      notification and achievement systems
+   • Add canvas activation/deactivation with
+     easy resume
+   • Add player immobilization when playing
+     Family Feud
    • Update agent configs with Lower Level
      2.0 project standards
+   • Apply project coding standards to Family
+     Feud POC
    • Apply project coding standards to
      DT_TerminalTales
    • Add comprehensive dynamic poster image
      loading guide
+   • Add Family Feud POC with canvas-based
+     game and button input system
    • Add Terminal Tales interactive fiction
      framework
    • Add comprehensive achievement testing
      documentation
-   • Add Claude subagent configurations for
-     VRChat project
 
 ✨ New Feature
    • Add canvas activation/deactivation with
@@ -94,24 +102,6 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
      story creation
    • add terminal templates, changelog agent,
      and snake bug analysis
-   • Add GitHub issue label assignment guide
-   • Add subagent recommendations for
-     VRChat/UdonSharp development
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - CREATE ISSUEEXPORT (2025-11-17)
-─────────────────────────────────────────────
-🔧 Updates
-   • Create IssueExport
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - ADD COMPREHENSIVE PROJECT (2025-11-18)
-─────────────────────────────────────────────
-📝 Documentation
-   • Add comprehensive project roadmap with
-     sprint planning
 
 ─────────────────────────────────────────────
 

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T02:32:28.432383Z",
+  "generated": "2025-11-20T02:33:44.368679Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -19,6 +19,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #83 from\n     CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
             "Merge pull request #82 from\n     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
             "Merge pull request #81 from\n     CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg",
             "Merge pull request #80 from\n     CloudStrife7/claude/terminal-tales-framework-01EKC8Gfw4cstBbXbD3dz8QE",
@@ -30,6 +31,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #83 from CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
+          "body": "Claude/game Family Feud POC 013sgmq g df wp h nc8gnfqoqmp"
+        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -191,12 +198,15 @@
           "title": "Updates",
           "items": [
             "Add comprehensive test matrices for\n     notification and achievement systems",
+            "Add canvas activation/deactivation with\n     easy resume",
+            "Add player immobilization when playing\n     Family Feud",
             "Update agent configs with Lower Level\n     2.0 project standards",
+            "Apply project coding standards to Family\n     Feud POC",
             "Apply project coding standards to\n     DT_TerminalTales",
             "Add comprehensive dynamic poster image\n     loading guide",
+            "Add Family Feud POC with canvas-based\n     game and button input system",
             "Add Terminal Tales interactive fiction\n     framework",
-            "Add comprehensive achievement testing\n     documentation",
-            "Add Claude subagent configurations for\n     VRChat project"
+            "Add comprehensive achievement testing\n     documentation"
           ]
         },
         {
@@ -220,9 +230,7 @@
           "title": "Documentation",
           "items": [
             "Add Terminal Tales generator prompt for\n     story creation",
-            "add terminal templates, changelog agent,\n     and snake bug analysis",
-            "Add GitHub issue label assignment guide",
-            "Add subagent recommendations for\n     VRChat/UdonSharp development"
+            "add terminal templates, changelog agent,\n     and snake bug analysis"
           ]
         }
       ],
@@ -241,6 +249,18 @@
         },
         {
           "date": "2025-11-18",
+          "type": "chore",
+          "message": "Add canvas activation/deactivation with easy resume",
+          "body": "- Added gameCanvas and startHidden Inspector fields"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "chore",
+          "message": "Add player immobilization when playing Family Feud",
+          "body": "Player is now locked in place when the game starts (StartGame) and"
+        },
+        {
+          "date": "2025-11-18",
           "type": "feat",
           "message": "Add player immobilization and waveform setup documentation",
           "body": "- Add player lock system during gameplay (like DOS Terminal)"
@@ -250,6 +270,12 @@
           "type": "chore",
           "message": "Update agent configs with Lower Level 2.0 project standards",
           "body": "- Add prohibited features: List<T>, Dictionary<K,V>, ?./??"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "chore",
+          "message": "Apply project coding standards to Family Feud POC",
+          "body": "Updates all Family Feud scripts to comply with project standards:"
         },
         {
           "date": "2025-11-18",
@@ -278,6 +304,12 @@
         {
           "date": "2025-11-18",
           "type": "chore",
+          "message": "Add Family Feud POC with canvas-based game and button input system",
+          "body": "Implements a playable proof-of-concept for Family Feud in VRChat using UdonSharp:"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "chore",
           "message": "Add Terminal Tales interactive fiction framework",
           "body": "Design and implement the Terminal Tales system for DOS terminal interactive"
         },
@@ -298,70 +330,6 @@
           "type": "chore",
           "message": "Add comprehensive achievement testing documentation",
           "body": "Create Tools/ACHIEVEMENT_TEST_MATRIX.md with complete test matrix"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add Claude subagent configurations for VRChat project",
-          "body": "Create 4 specialized agent configs in .claude/agents/:"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "docs",
-          "message": "Add GitHub issue label assignment guide",
-          "body": "- Complete label creation instructions with hex colors"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "docs",
-          "message": "Add subagent recommendations for VRChat/UdonSharp development",
-          "body": "- Analyzed 50+ subagents from awesome-claude-code-subagents"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "CREATE ISSUEEXPORT",
-      "date": "2025-11-17",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Create IssueExport"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-17",
-          "type": "chore",
-          "message": "Create IssueExport",
-          "body": ""
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "ADD COMPREHENSIVE PROJECT",
-      "date": "2025-11-18",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Add comprehensive project roadmap with\n     sprint planning"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-18",
-          "type": "docs",
-          "message": "Add comprehensive project roadmap with sprint planning",
-          "body": "- Created detailed project roadmap covering all 36 open issues"
         }
       ]
     }
