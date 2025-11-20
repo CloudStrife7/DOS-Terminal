@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T03:38:07.349985Z",
+  "generated": "2025-11-20T03:39:15.795484Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -19,6 +19,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #85 from\n     CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z",
             "Merge pull request #84 from\n     CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab",
             "Move POC code to Experimental folder",
             "Merge pull request #83 from\n     CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
@@ -33,6 +34,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #85 from CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z",
+          "body": "Add enhanced .claude/Claude.MD and restore workflow documentation"
+        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -219,8 +226,7 @@
             "Apply project coding standards to\n     DT_TerminalTales",
             "Add comprehensive dynamic poster image\n     loading guide",
             "Add Family Feud POC with canvas-based\n     game and button input system",
-            "Add remote content schema system with\n     caching strategy",
-            "Add Terminal Tales interactive fiction\n     framework"
+            "Add remote content schema system with\n     caching strategy"
           ]
         },
         {
@@ -318,12 +324,6 @@
           "type": "chore",
           "message": "Add remote content schema system with caching strategy",
           "body": "- Create REMOTE_CONTENT_SYSTEM.md documentation in Docs/Planning/"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add Terminal Tales interactive fiction framework",
-          "body": "Design and implement the Terminal Tales system for DOS terminal interactive"
         }
       ]
     }

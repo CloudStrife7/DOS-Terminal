@@ -5,6 +5,8 @@
 VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #85 from
+     CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z
    • Merge pull request #84 from
      CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab
    • Move POC code to Experimental folder
@@ -85,8 +87,6 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
      game and button input system
    • Add remote content schema system with
      caching strategy
-   • Add Terminal Tales interactive fiction
-     framework
 
 ✨ New Feature
    • Add canvas activation/deactivation with
