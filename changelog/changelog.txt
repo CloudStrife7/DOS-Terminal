@@ -2,9 +2,14 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
+VERSION 1.5.0 - ACHIEVEMENTS (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #78 from
+     CloudStrife7/claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP
+   • Merge branch 'modularize-dos-terminal'
+     into
+     claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP
    • Merge pull request #77 from
      CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
 
@@ -51,6 +56,8 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
 🔧 Updates
    • Add comprehensive test matrices for
      notification and achievement systems
+   • Add comprehensive achievement testing
+     documentation
 
 📝 Documentation
    • Add Terminal Tales generator prompt for
