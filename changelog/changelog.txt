@@ -5,6 +5,8 @@
 VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #80 from
+     CloudStrife7/claude/terminal-tales-framework-01EKC8Gfw4cstBbXbD3dz8QE
    • Merge pull request #79 from
      CloudStrife7/claude/poster-image-loading-guide-01AVJbUMXNVLQA82TRQUwhEf
    • Merge pull request #78 from
@@ -58,8 +60,12 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
 🔧 Updates
    • Add comprehensive test matrices for
      notification and achievement systems
+   • Apply project coding standards to
+     DT_TerminalTales
    • Add comprehensive dynamic poster image
      loading guide
+   • Add Terminal Tales interactive fiction
+     framework
    • Add comprehensive achievement testing
      documentation
 
@@ -122,14 +128,6 @@ VERSION 1.5.0 - SILENCE SNAKEPIXELPOSITION ONVALIDATE() (2025-11-15)
      console spam
    • Heavy Rain achievement flow + Phase 4
      weather module complete
-
-📝 Documentation
-   • Enhance CLAUDE.md with streamlined
-     project-specific guidelines
-
-🔧 Updates
-   • Refactor weather system into modular
-     DT_WeatherModule
 
 ─────────────────────────────────────────────
 
