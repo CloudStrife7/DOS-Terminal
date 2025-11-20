@@ -2,9 +2,11 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - ACHIEVEMENTS (2025-11-19)
+VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #76 from
+     CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na
    • Merge pull request #75 from
      CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD
    • Merge pull request #74 from
@@ -37,6 +39,8 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
 📝 Documentation
    • Add Terminal Tales generator prompt for
      story creation
+   • add terminal templates, changelog agent,
+     and snake bug analysis
    • Add GitHub issue label assignment guide
    • Add subagent recommendations for
      VRChat/UdonSharp development
@@ -123,12 +127,6 @@ VERSION 1.5.0 - MENU SYSTEM (2025-11-14)
      Interface Style Guide to
      Docs/TerminalTales/📟 Lower Level 2.0
      Terminal Interface Style Guide
-   • Create guide for Terminal Tales story
-     prompts
-
-♻️ Code Refactoring
-   • Extract CacheManager module (Phase 3
-     complete)
 
 ─────────────────────────────────────────────
 

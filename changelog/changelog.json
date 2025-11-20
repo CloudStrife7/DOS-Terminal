@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T00:50:37.977445Z",
+  "generated": "2025-11-20T01:04:29.903154Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "ACHIEVEMENTS",
+      "title": "MERGE PULL REQUEST",
       "date": "2025-11-19",
       "featured": false,
       "sections": [
@@ -19,12 +19,19 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #76 from\n     CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na",
             "Merge pull request #75 from\n     CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD",
             "Merge pull request #74 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5"
           ]
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #76 from CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na",
+          "body": "docs: add terminal templates, changelog agent, and snake bug analysis"
+        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -103,6 +110,7 @@
           "title": "Documentation",
           "items": [
             "Add Terminal Tales generator prompt for\n     story creation",
+            "add terminal templates, changelog agent,\n     and snake bug analysis",
             "Add GitHub issue label assignment guide",
             "Add subagent recommendations for\n     VRChat/UdonSharp development"
           ]
@@ -120,6 +128,12 @@
           "type": "docs",
           "message": "Add Terminal Tales generator prompt for story creation",
           "body": "- Complete Claude prompt for generating Terminal Tales"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "docs",
+          "message": "add terminal templates, changelog agent, and snake bug analysis",
+          "body": "Task 3: 80-Character Terminal Templates"
         },
         {
           "date": "2025-11-18",
@@ -342,15 +356,7 @@
             "Rename Interface Style Guide file",
             "Rename Story Creation Prompt to Story\n     Creation Prompt",
             "Rename TerminalTalesTerminal Tales Story\n     Creation Prompt to Story Creation Prompt",
-            "Rename Docs/📟 Lower Level 2.0 Terminal\n     Interface Style Guide to\n     Docs/TerminalTales/📟 Lower Level 2.0\n     Terminal Interface Style Guide",
-            "Create guide for Terminal Tales story\n     prompts"
-          ]
-        },
-        {
-          "icon": "♻️",
-          "title": "Code Refactoring",
-          "items": [
-            "Extract CacheManager module (Phase 3\n     complete)"
+            "Rename Docs/📟 Lower Level 2.0 Terminal\n     Interface Style Guide to\n     Docs/TerminalTales/📟 Lower Level 2.0\n     Terminal Interface Style Guide"
           ]
         }
       ],
@@ -402,18 +408,6 @@
           "type": "chore",
           "message": "Rename Docs/📟 Lower Level 2.0 Terminal Interface Style Guide to Docs/TerminalTales/📟 Lower Level 2.0 Terminal Interface Style Guide",
           "body": ""
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Create guide for Terminal Tales story prompts",
-          "body": "Added a comprehensive guide for creating Terminal Tales stories, detailing structure, length requirements, and thematic elements."
-        },
-        {
-          "date": "2025-11-14",
-          "type": "refactor",
-          "message": "Extract CacheManager module (Phase 3 complete)",
-          "body": "Phase 3 Modularization:"
         }
       ]
     }
