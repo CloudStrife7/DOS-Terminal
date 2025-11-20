@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T03:39:15.795484Z",
+  "generated": "2025-11-20T03:43:38.292918Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -19,8 +19,87 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #86 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
             "Merge pull request #85 from\n     CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z",
-            "Merge pull request #84 from\n     CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab",
+            "Merge pull request #84 from\n     CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #86 from CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
+          "body": "Claude/project roadmap planning 018 zl6r z6 zjq5 wfqr n6 f34o5"
+        },
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #85 from CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z",
+          "body": "Add enhanced .claude/Claude.MD and restore workflow documentation"
+        },
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #84 from CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab",
+          "body": "Add remote content schema system with caching strategy"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "UPDATE ROADMAP WITH",
+      "date": "2025-11-20",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Update roadmap with branch status after\n     Sprint 1 merges",
+            "Clean up branch triage guide - only\n     remaining branches",
+            "Update branch triage guide with actual\n     deletion status",
+            "Add merge guidelines and status tracking\n     to branch triage guide"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Update roadmap with branch status after Sprint 1 merges",
+          "body": "- Update Branch Strategy section with completed/remaining branches"
+        },
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Clean up branch triage guide - only remaining branches",
+          "body": "- Remove all deleted branches from listings"
+        },
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Update branch triage guide with actual deletion status",
+          "body": "- Mark 11 branches as deleted on 11-20"
+        },
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Add merge guidelines and status tracking to branch triage guide",
+          "body": "- Add \"WHEN TO MERGE/DELETE\" descriptions for each category"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "MOVE POC CODE",
+      "date": "2025-11-19",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
             "Move POC code to Experimental folder",
             "Merge pull request #83 from\n     CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
             "Merge pull request #82 from\n     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
@@ -34,18 +113,6 @@
         }
       ],
       "commits": [
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #85 from CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z",
-          "body": "Add enhanced .claude/Claude.MD and restore workflow documentation"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #84 from CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab",
-          "body": "Add remote content schema system with caching strategy"
-        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -223,10 +290,7 @@
             "Add player immobilization when playing\n     Family Feud",
             "Update agent configs with Lower Level\n     2.0 project standards",
             "Apply project coding standards to Family\n     Feud POC",
-            "Apply project coding standards to\n     DT_TerminalTales",
-            "Add comprehensive dynamic poster image\n     loading guide",
-            "Add Family Feud POC with canvas-based\n     game and button input system",
-            "Add remote content schema system with\n     caching strategy"
+            "Apply project coding standards to\n     DT_TerminalTales"
           ]
         },
         {
@@ -234,15 +298,7 @@
           "title": "New Feature",
           "items": [
             "Add canvas activation/deactivation with\n     easy resume",
-            "Add player immobilization and waveform\n     setup documentation",
-            "Add 5 POC arcade games with procedural\n     audio system"
-          ]
-        },
-        {
-          "icon": "🐛",
-          "title": "Bug Fixes",
-          "items": [
-            "Apply project coding standards to arcade\n     games"
+            "Add player immobilization and waveform\n     setup documentation"
           ]
         }
       ],
@@ -294,36 +350,6 @@
           "type": "chore",
           "message": "Apply project coding standards to DT_TerminalTales",
           "body": "Update module to comply with Lower Level 2.0 coding standards:"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "fix",
-          "message": "Apply project coding standards to arcade games",
-          "body": "Updates arcade games to comply with claude.md guidelines:"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add comprehensive dynamic poster image loading guide",
-          "body": "Includes step-by-step instructions for:"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "feat",
-          "message": "Add 5 POC arcade games with procedural audio system",
-          "body": "Implements terminal-based arcade games using TextMeshPro canvas:"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add Family Feud POC with canvas-based game and button input system",
-          "body": "Implements a playable proof-of-concept for Family Feud in VRChat using UdonSharp:"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add remote content schema system with caching strategy",
-          "body": "- Create REMOTE_CONTENT_SYSTEM.md documentation in Docs/Planning/"
         }
       ]
     }

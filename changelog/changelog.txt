@@ -5,10 +5,32 @@
 VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #86 from
+     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
    • Merge pull request #85 from
      CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z
    • Merge pull request #84 from
      CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - UPDATE ROADMAP WITH (2025-11-20)
+─────────────────────────────────────────────
+📝 Documentation
+   • Update roadmap with branch status after
+     Sprint 1 merges
+   • Clean up branch triage guide - only
+     remaining branches
+   • Update branch triage guide with actual
+     deletion status
+   • Add merge guidelines and status tracking
+     to branch triage guide
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - MOVE POC CODE (2025-11-19)
+─────────────────────────────────────────────
+🔧 Updates
    • Move POC code to Experimental folder
    • Merge pull request #83 from
      CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp
@@ -81,24 +103,12 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
      Feud POC
    • Apply project coding standards to
      DT_TerminalTales
-   • Add comprehensive dynamic poster image
-     loading guide
-   • Add Family Feud POC with canvas-based
-     game and button input system
-   • Add remote content schema system with
-     caching strategy
 
 ✨ New Feature
    • Add canvas activation/deactivation with
      easy resume
    • Add player immobilization and waveform
      setup documentation
-   • Add 5 POC arcade games with procedural
-     audio system
-
-🐛 Bug Fixes
-   • Apply project coding standards to arcade
-     games
 
 ─────────────────────────────────────────────
 
