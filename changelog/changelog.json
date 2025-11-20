@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T02:30:35.022521Z",
+  "generated": "2025-11-20T02:32:28.432383Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -19,6 +19,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #82 from\n     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
             "Merge pull request #81 from\n     CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg",
             "Merge pull request #80 from\n     CloudStrife7/claude/terminal-tales-framework-01EKC8Gfw4cstBbXbD3dz8QE",
             "Merge pull request #79 from\n     CloudStrife7/claude/poster-image-loading-guide-01AVJbUMXNVLQA82TRQUwhEf",
@@ -29,6 +30,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #82 from CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
+          "body": "5 POC arcade games with procedural audio system 01 n na e1t qf5s4 vd pff q9tmqa"
+        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -193,6 +200,22 @@
           ]
         },
         {
+          "icon": "✨",
+          "title": "New Feature",
+          "items": [
+            "Add canvas activation/deactivation with\n     easy resume",
+            "Add player immobilization and waveform\n     setup documentation",
+            "Add 5 POC arcade games with procedural\n     audio system"
+          ]
+        },
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "Apply project coding standards to arcade\n     games"
+          ]
+        },
+        {
           "icon": "📝",
           "title": "Documentation",
           "items": [
@@ -212,6 +235,18 @@
         },
         {
           "date": "2025-11-18",
+          "type": "feat",
+          "message": "Add canvas activation/deactivation with easy resume",
+          "body": "- Added gameCanvas and startHidden Inspector fields"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "feat",
+          "message": "Add player immobilization and waveform setup documentation",
+          "body": "- Add player lock system during gameplay (like DOS Terminal)"
+        },
+        {
+          "date": "2025-11-18",
           "type": "chore",
           "message": "Update agent configs with Lower Level 2.0 project standards",
           "body": "- Add prohibited features: List<T>, Dictionary<K,V>, ?./??"
@@ -224,9 +259,21 @@
         },
         {
           "date": "2025-11-18",
+          "type": "fix",
+          "message": "Apply project coding standards to arcade games",
+          "body": "Updates arcade games to comply with claude.md guidelines:"
+        },
+        {
+          "date": "2025-11-18",
           "type": "chore",
           "message": "Add comprehensive dynamic poster image loading guide",
           "body": "Includes step-by-step instructions for:"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "feat",
+          "message": "Add 5 POC arcade games with procedural audio system",
+          "body": "Implements terminal-based arcade games using TextMeshPro canvas:"
         },
         {
           "date": "2025-11-18",
@@ -315,75 +362,6 @@
           "type": "docs",
           "message": "Add comprehensive project roadmap with sprint planning",
           "body": "- Created detailed project roadmap covering all 36 open issues"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "ADD TEXT WRAPPING",
-      "date": "2025-11-16",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Add text wrapping + comprehensive\n     changelog documentation"
-          ]
-        },
-        {
-          "icon": "✨",
-          "title": "New Feature",
-          "items": [
-            "Add scrollable changelog with full-text\n     display",
-            "Automated changelog system with GitHub\n     Pages integration"
-          ]
-        },
-        {
-          "icon": "🐛",
-          "title": "Bug Fixes",
-          "items": [
-            "Update changelog to use public\n     DOS-Terminal repo"
-          ]
-        },
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Restore working Phase 5 state after\n     failed modularization attempt"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-16",
-          "type": "docs",
-          "message": "Add text wrapping + comprehensive changelog documentation",
-          "body": "Text Wrapping Fix:"
-        },
-        {
-          "date": "2025-11-16",
-          "type": "feat",
-          "message": "Add scrollable changelog with full-text display",
-          "body": "Implemented page-based scrolling for DOS Terminal changelog:"
-        },
-        {
-          "date": "2025-11-16",
-          "type": "fix",
-          "message": "Update changelog to use public DOS-Terminal repo",
-          "body": "Changed changelog deployment from private LL2PCVR repo to public DOS-Terminal repo"
-        },
-        {
-          "date": "2025-11-16",
-          "type": "feat",
-          "message": "Automated changelog system with GitHub Pages integration",
-          "body": "Implemented automated changelog generation from git commits, published to"
-        },
-        {
-          "date": "2025-11-16",
-          "type": "chore",
-          "message": "Restore working Phase 5 state after failed modularization attempt",
-          "body": "Reverted DOSTerminalController.cs to commit ed94d31d (Phase 5 - BootSequence module)."
         }
       ]
     }

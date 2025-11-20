@@ -5,6 +5,8 @@
 VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #82 from
+     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa
    • Merge pull request #81 from
      CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg
    • Merge pull request #80 from
@@ -75,6 +77,18 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
    • Add Claude subagent configurations for
      VRChat project
 
+✨ New Feature
+   • Add canvas activation/deactivation with
+     easy resume
+   • Add player immobilization and waveform
+     setup documentation
+   • Add 5 POC arcade games with procedural
+     audio system
+
+🐛 Bug Fixes
+   • Apply project coding standards to arcade
+     games
+
 📝 Documentation
    • Add Terminal Tales generator prompt for
      story creation
@@ -98,28 +112,6 @@ VERSION 1.5.0 - ADD COMPREHENSIVE PROJECT (2025-11-18)
 📝 Documentation
    • Add comprehensive project roadmap with
      sprint planning
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - ADD TEXT WRAPPING (2025-11-16)
-─────────────────────────────────────────────
-📝 Documentation
-   • Add text wrapping + comprehensive
-     changelog documentation
-
-✨ New Feature
-   • Add scrollable changelog with full-text
-     display
-   • Automated changelog system with GitHub
-     Pages integration
-
-🐛 Bug Fixes
-   • Update changelog to use public
-     DOS-Terminal repo
-
-🔧 Updates
-   • Restore working Phase 5 state after
-     failed modularization attempt
 
 ─────────────────────────────────────────────
 
