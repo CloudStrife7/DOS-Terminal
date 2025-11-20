@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-18T03:01:08.011553Z",
+  "generated": "2025-11-20T00:45:52.420098Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -9,6 +9,112 @@
     "bulletChar": "•"
   },
   "releases": [
+    {
+      "version": "1.5.0",
+      "title": "MERGE PULL REQUEST",
+      "date": "2025-11-19",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Merge pull request #74 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #74 from CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
+          "body": "Claude/project roadmap planning 018 zl6r z6 zjq5 wfqr n6 f34o5"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "ADD BRANCH TRIAGE",
+      "date": "2025-11-20",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Add branch triage guide for 48 pending\n     branches"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Add branch triage guide for 48 pending branches",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "ADD BRANCH STRATEGY",
+      "date": "2025-11-19",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Add branch strategy mapping to sprint\n     planning"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "docs",
+          "message": "Add branch strategy mapping to sprint planning",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "TERMINAL TALES",
+      "date": "2025-11-18",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Add Terminal Tales generator prompt for\n     story creation",
+            "Add GitHub issue label assignment guide",
+            "Add subagent recommendations for\n     VRChat/UdonSharp development"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-18",
+          "type": "docs",
+          "message": "Add Terminal Tales generator prompt for story creation",
+          "body": "- Complete Claude prompt for generating Terminal Tales"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "docs",
+          "message": "Add GitHub issue label assignment guide",
+          "body": "- Complete label creation instructions with hex colors"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "docs",
+          "message": "Add subagent recommendations for VRChat/UdonSharp development",
+          "body": "- Analyzed 50+ subagents from awesome-claude-code-subagents"
+        }
+      ]
+    },
     {
       "version": "1.5.0",
       "title": "CREATE ISSUEEXPORT",
@@ -29,6 +135,29 @@
           "type": "chore",
           "message": "Create IssueExport",
           "body": ""
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "ADD COMPREHENSIVE PROJECT",
+      "date": "2025-11-18",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Add comprehensive project roadmap with\n     sprint planning"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-18",
+          "type": "docs",
+          "message": "Add comprehensive project roadmap with sprint planning",
+          "body": "- Created detailed project roadmap covering all 36 open issues"
         }
       ]
     },
@@ -195,11 +324,7 @@
             "Rename TerminalTalesTerminal Tales Story\n     Creation Prompt to Story Creation Prompt",
             "Rename Docs/📟 Lower Level 2.0 Terminal\n     Interface Style Guide to\n     Docs/TerminalTales/📟 Lower Level 2.0\n     Terminal Interface Style Guide",
             "Create guide for Terminal Tales story\n     prompts",
-            "Revert 'refactor: Extract CacheManager\n     module + fix SendCustomEvent bug (Phase\n     3 complete)'",
-            "Merge remote-tracking branch\n     'origin/claude/vr-agent-workflow-enhancement-01Udki7CVM5aPmoNbiBU62w4'\n     into modularize-dos-terminal",
-            "Implement Phase 1 workflow automation\n     for VR development",
-            "Add comprehensive project structure and\n     automation analysis",
-            "Merge pull request #29 from\n     CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v"
+            "Revert 'refactor: Extract CacheManager\n     module + fix SendCustomEvent bug (Phase\n     3 complete)'"
           ]
         },
         {
@@ -207,16 +332,7 @@
           "title": "Code Refactoring",
           "items": [
             "Extract CacheManager module (Phase 3\n     complete)",
-            "Extract CacheManager module + fix\n     SendCustomEvent bug (Phase 3 complete)",
-            "Extract RemoteContent module (Phase 2\n     complete)",
-            "Extract RainShader module (Phase 1\n     complete)"
-          ]
-        },
-        {
-          "icon": "🐛",
-          "title": "Bug Fixes",
-          "items": [
-            "Improve UdonSharp validation script for\n     Windows"
+            "Extract CacheManager module + fix\n     SendCustomEvent bug (Phase 3 complete)"
           ]
         }
       ],
@@ -292,48 +408,6 @@
           "type": "refactor",
           "message": "Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)",
           "body": "Phase 3 Modularization:"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "fix",
-          "message": "Improve UdonSharp validation script for Windows",
-          "body": "- Add UTF-8 encoding support for Windows console (fixes emoji rendering)"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Merge remote-tracking branch 'origin/claude/vr-agent-workflow-enhancement-01Udki7CVM5aPmoNbiBU62w4' into modularize-dos-terminal",
-          "body": ""
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Implement Phase 1 workflow automation for VR development",
-          "body": "Added comprehensive automation system to streamline VR development workflow:"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Add comprehensive project structure and automation analysis",
-          "body": "Generated detailed analysis of VR project including:"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "refactor",
-          "message": "Extract RemoteContent module (Phase 2 complete)",
-          "body": "Extracted remote content loading and storage from DOSTerminalController"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "refactor",
-          "message": "Extract RainShader module (Phase 1 complete)",
-          "body": "Extracted rain shader control logic from DOSTerminalController into"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Merge pull request #29 from CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v",
-          "body": "docs: Add comprehensive DOSTerminalController modularization plan"
         }
       ]
     }

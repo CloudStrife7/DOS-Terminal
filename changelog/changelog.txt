@@ -2,10 +2,53 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
+VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
+─────────────────────────────────────────────
+🔧 Updates
+   • Merge pull request #74 from
+     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - ADD BRANCH TRIAGE (2025-11-20)
+─────────────────────────────────────────────
+📝 Documentation
+   • Add branch triage guide for 48 pending
+     branches
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - ADD BRANCH STRATEGY (2025-11-19)
+─────────────────────────────────────────────
+📝 Documentation
+   • Add branch strategy mapping to sprint
+     planning
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - TERMINAL TALES (2025-11-18)
+─────────────────────────────────────────────
+📝 Documentation
+   • Add Terminal Tales generator prompt for
+     story creation
+   • Add GitHub issue label assignment guide
+   • Add subagent recommendations for
+     VRChat/UdonSharp development
+
+─────────────────────────────────────────────
+
 VERSION 1.5.0 - CREATE ISSUEEXPORT (2025-11-17)
 ─────────────────────────────────────────────
 🔧 Updates
    • Create IssueExport
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - ADD COMPREHENSIVE PROJECT (2025-11-18)
+─────────────────────────────────────────────
+📝 Documentation
+   • Add comprehensive project roadmap with
+     sprint planning
 
 ─────────────────────────────────────────────
 
@@ -79,29 +122,12 @@ VERSION 1.5.0 - MENU SYSTEM (2025-11-14)
    • Revert 'refactor: Extract CacheManager
      module + fix SendCustomEvent bug (Phase
      3 complete)'
-   • Merge remote-tracking branch
-     'origin/claude/vr-agent-workflow-enhancement-01Udki7CVM5aPmoNbiBU62w4'
-     into modularize-dos-terminal
-   • Implement Phase 1 workflow automation
-     for VR development
-   • Add comprehensive project structure and
-     automation analysis
-   • Merge pull request #29 from
-     CloudStrife7/claude/refactor-dosterminalcontroller-modules-011CV4nCuapv9VquP9FGQa7v
 
 ♻️ Code Refactoring
    • Extract CacheManager module (Phase 3
      complete)
    • Extract CacheManager module + fix
      SendCustomEvent bug (Phase 3 complete)
-   • Extract RemoteContent module (Phase 2
-     complete)
-   • Extract RainShader module (Phase 1
-     complete)
-
-🐛 Bug Fixes
-   • Improve UdonSharp validation script for
-     Windows
 
 ─────────────────────────────────────────────
 
