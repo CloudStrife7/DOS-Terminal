@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T02:29:53.051490Z",
+  "generated": "2025-11-20T02:30:35.022521Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -19,6 +19,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #81 from\n     CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg",
             "Merge pull request #80 from\n     CloudStrife7/claude/terminal-tales-framework-01EKC8Gfw4cstBbXbD3dz8QE",
             "Merge pull request #79 from\n     CloudStrife7/claude/poster-image-loading-guide-01AVJbUMXNVLQA82TRQUwhEf",
             "Merge pull request #78 from\n     CloudStrife7/claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP",
@@ -28,6 +29,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #81 from CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg",
+          "body": "Claude/create subagent configs 01 hi p2ra z zru l3 m8h jv tr1qg"
+        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -177,10 +184,12 @@
           "title": "Updates",
           "items": [
             "Add comprehensive test matrices for\n     notification and achievement systems",
+            "Update agent configs with Lower Level\n     2.0 project standards",
             "Apply project coding standards to\n     DT_TerminalTales",
             "Add comprehensive dynamic poster image\n     loading guide",
             "Add Terminal Tales interactive fiction\n     framework",
-            "Add comprehensive achievement testing\n     documentation"
+            "Add comprehensive achievement testing\n     documentation",
+            "Add Claude subagent configurations for\n     VRChat project"
           ]
         },
         {
@@ -200,6 +209,12 @@
           "type": "chore",
           "message": "Add comprehensive test matrices for notification and achievement systems",
           "body": "- Create Tools/NOTIFICATION_TEST_MATRIX.md with complete testing documentation"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "chore",
+          "message": "Update agent configs with Lower Level 2.0 project standards",
+          "body": "- Add prohibited features: List<T>, Dictionary<K,V>, ?./??"
         },
         {
           "date": "2025-11-18",
@@ -236,6 +251,12 @@
           "type": "chore",
           "message": "Add comprehensive achievement testing documentation",
           "body": "Create Tools/ACHIEVEMENT_TEST_MATRIX.md with complete test matrix"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "chore",
+          "message": "Add Claude subagent configurations for VRChat project",
+          "body": "Create 4 specialized agent configs in .claude/agents/:"
         },
         {
           "date": "2025-11-18",
@@ -331,13 +352,6 @@
           "items": [
             "Restore working Phase 5 state after\n     failed modularization attempt"
           ]
-        },
-        {
-          "icon": "♻️",
-          "title": "Code Refactoring",
-          "items": [
-            "Extract BootSequence module (Phase 5) +\n     cleanup + fixes"
-          ]
         }
       ],
       "commits": [
@@ -370,42 +384,6 @@
           "type": "chore",
           "message": "Restore working Phase 5 state after failed modularization attempt",
           "body": "Reverted DOSTerminalController.cs to commit ed94d31d (Phase 5 - BootSequence module)."
-        },
-        {
-          "date": "2025-11-16",
-          "type": "refactor",
-          "message": "Extract BootSequence module (Phase 5) + cleanup + fixes",
-          "body": "Phase 5 Complete: DT_BootSequence extraction (190 lines)"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "SILENCE SNAKEPIXELPOSITION ONVALIDATE()",
-      "date": "2025-11-15",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🐛",
-          "title": "Bug Fixes",
-          "items": [
-            "Silence SnakePixelPosition OnValidate()\n     console spam",
-            "Heavy Rain achievement flow + Phase 4\n     weather module complete"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-15",
-          "type": "fix",
-          "message": "Silence SnakePixelPosition OnValidate() console spam",
-          "body": "Problem:"
-        },
-        {
-          "date": "2025-11-15",
-          "type": "fix",
-          "message": "Heavy Rain achievement flow + Phase 4 weather module complete",
-          "body": "BREAKING FIX - Heavy Rain Achievement:"
         }
       ]
     }
