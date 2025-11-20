@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T03:43:38.292918Z",
+  "generated": "2025-11-20T03:53:03.890390Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -9,6 +9,52 @@
     "bulletChar": "•"
   },
   "releases": [
+    {
+      "version": "1.5.0",
+      "title": "MERGE PULL REQUEST",
+      "date": "2025-11-19",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Merge pull request #87 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #87 from CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
+          "body": "docs: Add session summary to README (November 20, 2025)"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "ADD SESSION SUMMARY",
+      "date": "2025-11-20",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Add session summary to README (November\n     20, 2025)"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Add session summary to README (November 20, 2025)",
+          "body": "Fixes:"
+        }
+      ]
+    },
     {
       "version": "1.5.0",
       "title": "MERGE PULL REQUEST",
@@ -288,9 +334,7 @@
             "Add comprehensive test matrices for\n     notification and achievement systems",
             "Add canvas activation/deactivation with\n     easy resume",
             "Add player immobilization when playing\n     Family Feud",
-            "Update agent configs with Lower Level\n     2.0 project standards",
-            "Apply project coding standards to Family\n     Feud POC",
-            "Apply project coding standards to\n     DT_TerminalTales"
+            "Update agent configs with Lower Level\n     2.0 project standards"
           ]
         },
         {
@@ -338,18 +382,6 @@
           "type": "chore",
           "message": "Update agent configs with Lower Level 2.0 project standards",
           "body": "- Add prohibited features: List<T>, Dictionary<K,V>, ?./??"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Apply project coding standards to Family Feud POC",
-          "body": "Updates all Family Feud scripts to comply with project standards:"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Apply project coding standards to DT_TerminalTales",
-          "body": "Update module to comply with Lower Level 2.0 coding standards:"
         }
       ]
     }
