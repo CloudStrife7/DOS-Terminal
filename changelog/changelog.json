@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T00:45:52.420098Z",
+  "generated": "2025-11-20T00:50:37.977445Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "MERGE PULL REQUEST",
+      "title": "ACHIEVEMENTS",
       "date": "2025-11-19",
       "featured": false,
       "sections": [
@@ -19,11 +19,18 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #75 from\n     CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD",
             "Merge pull request #74 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5"
           ]
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #75 from CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD",
+          "body": "Add comprehensive test matrices for notification and achievement systems"
+        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -80,10 +87,17 @@
     },
     {
       "version": "1.5.0",
-      "title": "TERMINAL TALES",
+      "title": "NOTIFICATIONS",
       "date": "2025-11-18",
       "featured": false,
       "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Add comprehensive test matrices for\n     notification and achievement systems"
+          ]
+        },
         {
           "icon": "📝",
           "title": "Documentation",
@@ -95,6 +109,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-18",
+          "type": "chore",
+          "message": "Add comprehensive test matrices for notification and achievement systems",
+          "body": "- Create Tools/NOTIFICATION_TEST_MATRIX.md with complete testing documentation"
+        },
         {
           "date": "2025-11-18",
           "type": "docs",
@@ -323,16 +343,14 @@
             "Rename Story Creation Prompt to Story\n     Creation Prompt",
             "Rename TerminalTalesTerminal Tales Story\n     Creation Prompt to Story Creation Prompt",
             "Rename Docs/📟 Lower Level 2.0 Terminal\n     Interface Style Guide to\n     Docs/TerminalTales/📟 Lower Level 2.0\n     Terminal Interface Style Guide",
-            "Create guide for Terminal Tales story\n     prompts",
-            "Revert 'refactor: Extract CacheManager\n     module + fix SendCustomEvent bug (Phase\n     3 complete)'"
+            "Create guide for Terminal Tales story\n     prompts"
           ]
         },
         {
           "icon": "♻️",
           "title": "Code Refactoring",
           "items": [
-            "Extract CacheManager module (Phase 3\n     complete)",
-            "Extract CacheManager module + fix\n     SendCustomEvent bug (Phase 3 complete)"
+            "Extract CacheManager module (Phase 3\n     complete)"
           ]
         }
       ],
@@ -395,18 +413,6 @@
           "date": "2025-11-14",
           "type": "refactor",
           "message": "Extract CacheManager module (Phase 3 complete)",
-          "body": "Phase 3 Modularization:"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Revert 'refactor: Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)'",
-          "body": ""
-        },
-        {
-          "date": "2025-11-14",
-          "type": "refactor",
-          "message": "Extract CacheManager module + fix SendCustomEvent bug (Phase 3 complete)",
           "body": "Phase 3 Modularization:"
         }
       ]

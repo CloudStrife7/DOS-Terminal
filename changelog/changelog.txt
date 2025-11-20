@@ -2,9 +2,11 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
+VERSION 1.5.0 - ACHIEVEMENTS (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #75 from
+     CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD
    • Merge pull request #74 from
      CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
 
@@ -26,8 +28,12 @@ VERSION 1.5.0 - ADD BRANCH STRATEGY (2025-11-19)
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - TERMINAL TALES (2025-11-18)
+VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
 ─────────────────────────────────────────────
+🔧 Updates
+   • Add comprehensive test matrices for
+     notification and achievement systems
+
 📝 Documentation
    • Add Terminal Tales generator prompt for
      story creation
@@ -119,15 +125,10 @@ VERSION 1.5.0 - MENU SYSTEM (2025-11-14)
      Terminal Interface Style Guide
    • Create guide for Terminal Tales story
      prompts
-   • Revert 'refactor: Extract CacheManager
-     module + fix SendCustomEvent bug (Phase
-     3 complete)'
 
 ♻️ Code Refactoring
    • Extract CacheManager module (Phase 3
      complete)
-   • Extract CacheManager module + fix
-     SendCustomEvent bug (Phase 3 complete)
 
 ─────────────────────────────────────────────
 
