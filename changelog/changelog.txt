@@ -2,9 +2,10 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
+VERSION 1.5.0 - MOVE POC CODE (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Move POC code to Experimental folder
    • Merge pull request #83 from
      CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp
    • Merge pull request #82 from
@@ -82,8 +83,6 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
      game and button input system
    • Add Terminal Tales interactive fiction
      framework
-   • Add comprehensive achievement testing
-     documentation
 
 ✨ New Feature
    • Add canvas activation/deactivation with

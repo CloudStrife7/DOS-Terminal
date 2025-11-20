@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T02:33:44.368679Z",
+  "generated": "2025-11-20T03:18:58.364958Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "MERGE PULL REQUEST",
+      "title": "MOVE POC CODE",
       "date": "2025-11-19",
       "featured": false,
       "sections": [
@@ -19,6 +19,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Move POC code to Experimental folder",
             "Merge pull request #83 from\n     CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
             "Merge pull request #82 from\n     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
             "Merge pull request #81 from\n     CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg",
@@ -31,6 +32,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Move POC code to Experimental folder",
+          "body": "- FamilyFeud game POC"
+        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -205,8 +212,7 @@
             "Apply project coding standards to\n     DT_TerminalTales",
             "Add comprehensive dynamic poster image\n     loading guide",
             "Add Family Feud POC with canvas-based\n     game and button input system",
-            "Add Terminal Tales interactive fiction\n     framework",
-            "Add comprehensive achievement testing\n     documentation"
+            "Add Terminal Tales interactive fiction\n     framework"
           ]
         },
         {
@@ -324,12 +330,6 @@
           "type": "docs",
           "message": "add terminal templates, changelog agent, and snake bug analysis",
           "body": "Task 3: 80-Character Terminal Templates"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add comprehensive achievement testing documentation",
-          "body": "Create Tools/ACHIEVEMENT_TEST_MATRIX.md with complete test matrix"
         }
       ]
     }
