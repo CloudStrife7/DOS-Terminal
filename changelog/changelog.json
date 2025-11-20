@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T03:18:58.364958Z",
+  "generated": "2025-11-20T03:38:07.349985Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "MOVE POC CODE",
+      "title": "MERGE PULL REQUEST",
       "date": "2025-11-19",
       "featured": false,
       "sections": [
@@ -19,6 +19,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #84 from\n     CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab",
             "Move POC code to Experimental folder",
             "Merge pull request #83 from\n     CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
             "Merge pull request #82 from\n     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
@@ -32,6 +33,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #84 from CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab",
+          "body": "Add remote content schema system with caching strategy"
+        },
         {
           "date": "2025-11-19",
           "type": "chore",
@@ -212,6 +219,7 @@
             "Apply project coding standards to\n     DT_TerminalTales",
             "Add comprehensive dynamic poster image\n     loading guide",
             "Add Family Feud POC with canvas-based\n     game and button input system",
+            "Add remote content schema system with\n     caching strategy",
             "Add Terminal Tales interactive fiction\n     framework"
           ]
         },
@@ -229,14 +237,6 @@
           "title": "Bug Fixes",
           "items": [
             "Apply project coding standards to arcade\n     games"
-          ]
-        },
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Add Terminal Tales generator prompt for\n     story creation",
-            "add terminal templates, changelog agent,\n     and snake bug analysis"
           ]
         }
       ],
@@ -316,20 +316,14 @@
         {
           "date": "2025-11-18",
           "type": "chore",
+          "message": "Add remote content schema system with caching strategy",
+          "body": "- Create REMOTE_CONTENT_SYSTEM.md documentation in Docs/Planning/"
+        },
+        {
+          "date": "2025-11-18",
+          "type": "chore",
           "message": "Add Terminal Tales interactive fiction framework",
           "body": "Design and implement the Terminal Tales system for DOS terminal interactive"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "docs",
-          "message": "Add Terminal Tales generator prompt for story creation",
-          "body": "- Complete Claude prompt for generating Terminal Tales"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "docs",
-          "message": "add terminal templates, changelog agent, and snake bug analysis",
-          "body": "Task 3: 80-Character Terminal Templates"
         }
       ]
     }

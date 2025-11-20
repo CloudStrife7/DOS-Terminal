@@ -2,9 +2,11 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - MOVE POC CODE (2025-11-19)
+VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #84 from
+     CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab
    • Move POC code to Experimental folder
    • Merge pull request #83 from
      CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp
@@ -81,6 +83,8 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
      loading guide
    • Add Family Feud POC with canvas-based
      game and button input system
+   • Add remote content schema system with
+     caching strategy
    • Add Terminal Tales interactive fiction
      framework
 
@@ -95,12 +99,6 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
 🐛 Bug Fixes
    • Apply project coding standards to arcade
      games
-
-📝 Documentation
-   • Add Terminal Tales generator prompt for
-     story creation
-   • add terminal templates, changelog agent,
-     and snake bug analysis
 
 ─────────────────────────────────────────────
 
