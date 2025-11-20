@@ -5,6 +5,22 @@
 VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge pull request #77 from
+     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - UPDATE BRANCH TRIAGE (2025-11-20)
+─────────────────────────────────────────────
+📝 Documentation
+   • Update branch triage guide with deletion
+     recommendations
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
+─────────────────────────────────────────────
+🔧 Updates
    • Merge pull request #76 from
      CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na
    • Merge pull request #75 from
@@ -103,30 +119,6 @@ VERSION 1.5.0 - SILENCE SNAKEPIXELPOSITION ONVALIDATE() (2025-11-15)
 🔧 Updates
    • Refactor weather system into modular
      DT_WeatherModule
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - MENU SYSTEM (2025-11-14)
-─────────────────────────────────────────────
-📝 Documentation
-   • Update DOSTerminalController.md for v29
-     menu system
-
-🔧 Updates
-   • Add Story Database file to Terminal
-     Tales
-   • Story Database
-   • Update Story Creation Prompt to version
-     2
-   • Rename Interface Style Guide file
-   • Rename Story Creation Prompt to Story
-     Creation Prompt
-   • Rename TerminalTalesTerminal Tales Story
-     Creation Prompt to Story Creation Prompt
-   • Rename Docs/📟 Lower Level 2.0 Terminal
-     Interface Style Guide to
-     Docs/TerminalTales/📟 Lower Level 2.0
-     Terminal Interface Style Guide
 
 ─────────────────────────────────────────────
 

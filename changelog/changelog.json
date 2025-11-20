@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T01:04:29.903154Z",
+  "generated": "2025-11-20T01:08:10.256845Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -9,6 +9,52 @@
     "bulletChar": "•"
   },
   "releases": [
+    {
+      "version": "1.5.0",
+      "title": "MERGE PULL REQUEST",
+      "date": "2025-11-19",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Merge pull request #77 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-19",
+          "type": "chore",
+          "message": "Merge pull request #77 from CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
+          "body": "docs: Update branch triage guide with deletion recommendations"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "UPDATE BRANCH TRIAGE",
+      "date": "2025-11-20",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Update branch triage guide with deletion\n     recommendations"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Update branch triage guide with deletion recommendations",
+          "body": "- Add Category 0 for 3 redundant branches to DELETE"
+        }
+      ]
+    },
     {
       "version": "1.5.0",
       "title": "MERGE PULL REQUEST",
@@ -330,84 +376,6 @@
           "type": "chore",
           "message": "Refactor weather system into modular DT_WeatherModule",
           "body": "- Extract weather functionality from DOSTerminalController to DT_WeatherModule"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "MENU SYSTEM",
-      "date": "2025-11-14",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Update DOSTerminalController.md for v29\n     menu system"
-          ]
-        },
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Add Story Database file to Terminal\n     Tales",
-            "Story Database",
-            "Update Story Creation Prompt to version\n     2",
-            "Rename Interface Style Guide file",
-            "Rename Story Creation Prompt to Story\n     Creation Prompt",
-            "Rename TerminalTalesTerminal Tales Story\n     Creation Prompt to Story Creation Prompt",
-            "Rename Docs/📟 Lower Level 2.0 Terminal\n     Interface Style Guide to\n     Docs/TerminalTales/📟 Lower Level 2.0\n     Terminal Interface Style Guide"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-14",
-          "type": "docs",
-          "message": "Update DOSTerminalController.md for v29 menu system",
-          "body": "Updated documentation to reflect v29 major changes:"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Add Story Database file to Terminal Tales",
-          "body": ""
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Story Database",
-          "body": "needs to be reorganized and hosted remotely in JSON file"
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Update Story Creation Prompt to version 2",
-          "body": ""
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Rename Interface Style Guide file",
-          "body": ""
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Rename Story Creation Prompt to Story Creation Prompt",
-          "body": ""
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Rename TerminalTalesTerminal Tales Story Creation Prompt to Story Creation Prompt",
-          "body": ""
-        },
-        {
-          "date": "2025-11-14",
-          "type": "chore",
-          "message": "Rename Docs/📟 Lower Level 2.0 Terminal Interface Style Guide to Docs/TerminalTales/📟 Lower Level 2.0 Terminal Interface Style Guide",
-          "body": ""
         }
       ]
     }
