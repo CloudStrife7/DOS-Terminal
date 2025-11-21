@@ -2,6 +2,41 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
+VERSION 1.5.0 - ADD XHTML2PDF SUPPORT (2025-11-21)
+─────────────────────────────────────────────
+🐛 Bug Fixes
+   • Add xhtml2pdf support for Windows
+     compatibility
+
+📝 Documentation
+   • Update SESSION_SUMMARY with PDF
+     automation
+   • Update README with session planning
+     links
+   • Add comprehensive session summary with
+     roadmap
+
+✨ New Feature
+   • Add Markdown to PDF automation with
+     Proton Drive sync
+   • Add UdonSharp script sync automation
+     tool
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - ADD DETAILED SCRIPT (2025-11-20)
+─────────────────────────────────────────────
+📝 Documentation
+   • Add detailed script sync automation plan
+   • Add comprehensive repository restructure
+     proposal
+
+🔧 Updates
+   • Update Unity lighting and terrain asset
+     files
+
+─────────────────────────────────────────────
+
 VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
@@ -83,44 +118,6 @@ VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
      CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na
    • Merge pull request #75 from
      CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD
-   • Merge pull request #74 from
-     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - ADD BRANCH TRIAGE (2025-11-20)
-─────────────────────────────────────────────
-📝 Documentation
-   • Add branch triage guide for 48 pending
-     branches
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - ADD BRANCH STRATEGY (2025-11-19)
-─────────────────────────────────────────────
-📝 Documentation
-   • Add branch strategy mapping to sprint
-     planning
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - NOTIFICATIONS (2025-11-18)
-─────────────────────────────────────────────
-🔧 Updates
-   • Add comprehensive test matrices for
-     notification and achievement systems
-   • Add canvas activation/deactivation with
-     easy resume
-   • Add player immobilization when playing
-     Family Feud
-   • Update agent configs with Lower Level
-     2.0 project standards
-
-✨ New Feature
-   • Add canvas activation/deactivation with
-     easy resume
-   • Add player immobilization and waveform
-     setup documentation
 
 ─────────────────────────────────────────────
 

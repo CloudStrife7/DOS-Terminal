@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-20T03:53:03.890390Z",
+  "generated": "2025-11-21T03:50:08.923933Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -9,6 +9,119 @@
     "bulletChar": "•"
   },
   "releases": [
+    {
+      "version": "1.5.0",
+      "title": "ADD XHTML2PDF SUPPORT",
+      "date": "2025-11-21",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "Add xhtml2pdf support for Windows\n     compatibility"
+          ]
+        },
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Update SESSION_SUMMARY with PDF\n     automation",
+            "Update README with session planning\n     links",
+            "Add comprehensive session summary with\n     roadmap"
+          ]
+        },
+        {
+          "icon": "✨",
+          "title": "New Feature",
+          "items": [
+            "Add Markdown to PDF automation with\n     Proton Drive sync",
+            "Add UdonSharp script sync automation\n     tool"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-21",
+          "type": "fix",
+          "message": "Add xhtml2pdf support for Windows compatibility",
+          "body": "Add xhtml2pdf as preferred PDF converter for Windows (no external dependencies):"
+        },
+        {
+          "date": "2025-11-21",
+          "type": "docs",
+          "message": "Update SESSION_SUMMARY with PDF automation",
+          "body": "Add PDF automation to immediate next steps:"
+        },
+        {
+          "date": "2025-11-21",
+          "type": "feat",
+          "message": "Add Markdown to PDF automation with Proton Drive sync",
+          "body": "Create automated PDF conversion system for reading docs on mobile:"
+        },
+        {
+          "date": "2025-11-21",
+          "type": "docs",
+          "message": "Update README with session planning links",
+          "body": "Add section linking to planning session documents:"
+        },
+        {
+          "date": "2025-11-21",
+          "type": "docs",
+          "message": "Add comprehensive session summary with roadmap",
+          "body": "Create SESSION_SUMMARY.md organizing all planning work:"
+        },
+        {
+          "date": "2025-11-21",
+          "type": "feat",
+          "message": "Add UdonSharp script sync automation tool",
+          "body": "Create complete script sync system for PCVR → Quest workflow:"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "ADD DETAILED SCRIPT",
+      "date": "2025-11-20",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Add detailed script sync automation plan",
+            "Add comprehensive repository restructure\n     proposal"
+          ]
+        },
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Update Unity lighting and terrain asset\n     files"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Add detailed script sync automation plan",
+          "body": "Create comprehensive automation strategy for PCVR/Quest script syncing:"
+        },
+        {
+          "date": "2025-11-20",
+          "type": "docs",
+          "message": "Add comprehensive repository restructure proposal",
+          "body": "Create detailed proposal document for repository reorganization:"
+        },
+        {
+          "date": "2025-11-20",
+          "type": "chore",
+          "message": "Update Unity lighting and terrain asset files",
+          "body": "Auto-modified Unity asset files including:"
+        }
+      ]
+    },
     {
       "version": "1.5.0",
       "title": "MERGE PULL REQUEST",
@@ -249,8 +362,7 @@
           "title": "Updates",
           "items": [
             "Merge pull request #76 from\n     CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na",
-            "Merge pull request #75 from\n     CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD",
-            "Merge pull request #74 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5"
+            "Merge pull request #75 from\n     CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD"
           ]
         }
       ],
@@ -266,122 +378,6 @@
           "type": "chore",
           "message": "Merge pull request #75 from CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD",
           "body": "Add comprehensive test matrices for notification and achievement systems"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #74 from CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
-          "body": "Claude/project roadmap planning 018 zl6r z6 zjq5 wfqr n6 f34o5"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "ADD BRANCH TRIAGE",
-      "date": "2025-11-20",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Add branch triage guide for 48 pending\n     branches"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Add branch triage guide for 48 pending branches",
-          "body": ""
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "ADD BRANCH STRATEGY",
-      "date": "2025-11-19",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Add branch strategy mapping to sprint\n     planning"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-19",
-          "type": "docs",
-          "message": "Add branch strategy mapping to sprint planning",
-          "body": ""
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "NOTIFICATIONS",
-      "date": "2025-11-18",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Add comprehensive test matrices for\n     notification and achievement systems",
-            "Add canvas activation/deactivation with\n     easy resume",
-            "Add player immobilization when playing\n     Family Feud",
-            "Update agent configs with Lower Level\n     2.0 project standards"
-          ]
-        },
-        {
-          "icon": "✨",
-          "title": "New Feature",
-          "items": [
-            "Add canvas activation/deactivation with\n     easy resume",
-            "Add player immobilization and waveform\n     setup documentation"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add comprehensive test matrices for notification and achievement systems",
-          "body": "- Create Tools/NOTIFICATION_TEST_MATRIX.md with complete testing documentation"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "feat",
-          "message": "Add canvas activation/deactivation with easy resume",
-          "body": "- Added gameCanvas and startHidden Inspector fields"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add canvas activation/deactivation with easy resume",
-          "body": "- Added gameCanvas and startHidden Inspector fields"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Add player immobilization when playing Family Feud",
-          "body": "Player is now locked in place when the game starts (StartGame) and"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "feat",
-          "message": "Add player immobilization and waveform setup documentation",
-          "body": "- Add player lock system during gameplay (like DOS Terminal)"
-        },
-        {
-          "date": "2025-11-18",
-          "type": "chore",
-          "message": "Update agent configs with Lower Level 2.0 project standards",
-          "body": "- Add prohibited features: List<T>, Dictionary<K,V>, ?./??"
         }
       ]
     }
