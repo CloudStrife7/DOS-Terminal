@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-24T02:11:15.197385Z",
+  "generated": "2025-11-24T02:17:28.957028Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -19,12 +19,26 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge pull request #106 from\n     CloudStrife7/revert-105-modularize-with-restructure",
+            "Revert \"Modularize with restructure\"",
             "Merge pull request #105 from\n     CloudStrife7/modularize-with-restructure",
             "Merge pull request #104 from\n     CloudStrife7/claude/repo-restructure-planning-01WPwa5pYoh7uYpexjRrv5Xj"
           ]
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-23",
+          "type": "chore",
+          "message": "Merge pull request #106 from CloudStrife7/revert-105-modularize-with-restructure",
+          "body": "Revert \"Modularize with restructure\""
+        },
+        {
+          "date": "2025-11-23",
+          "type": "chore",
+          "message": "Revert \"Modularize with restructure\"",
+          "body": ""
+        },
         {
           "date": "2025-11-23",
           "type": "chore",
@@ -382,9 +396,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Move POC code to Experimental folder",
-            "Merge pull request #83 from\n     CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
-            "Merge pull request #82 from\n     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa"
+            "Move POC code to Experimental folder"
           ]
         }
       ],
@@ -394,18 +406,6 @@
           "type": "chore",
           "message": "Move POC code to Experimental folder",
           "body": "- FamilyFeud game POC"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #83 from CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
-          "body": "Claude/game Family Feud POC 013sgmq g df wp h nc8gnfqoqmp"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #82 from CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
-          "body": "5 POC arcade games with procedural audio system 01 n na e1t qf5s4 vd pff q9tmqa"
         }
       ]
     }
