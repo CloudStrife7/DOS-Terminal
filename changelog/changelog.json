@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-21T03:50:08.923933Z",
+  "generated": "2025-11-24T02:11:15.197385Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,24 +11,141 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "ADD XHTML2PDF SUPPORT",
-      "date": "2025-11-21",
+      "title": "MERGE PULL REQUEST",
+      "date": "2025-11-23",
       "featured": false,
       "sections": [
         {
-          "icon": "🐛",
-          "title": "Bug Fixes",
+          "icon": "🔧",
+          "title": "Updates",
           "items": [
-            "Add xhtml2pdf support for Windows\n     compatibility"
+            "Merge pull request #105 from\n     CloudStrife7/modularize-with-restructure",
+            "Merge pull request #104 from\n     CloudStrife7/claude/repo-restructure-planning-01WPwa5pYoh7uYpexjRrv5Xj"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-23",
+          "type": "chore",
+          "message": "Merge pull request #105 from CloudStrife7/modularize-with-restructure",
+          "body": "Modularize with restructure"
+        },
+        {
+          "date": "2025-11-23",
+          "type": "chore",
+          "message": "Merge pull request #104 from CloudStrife7/claude/repo-restructure-planning-01WPwa5pYoh7uYpexjRrv5Xj",
+          "body": "Repository Restructure V3: 1-6 Lifecycle with Deployment Workflow Guide"
+        }
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "title": "ADD INTERACTIVE DEPLOYMENT",
+      "date": "2025-11-24",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "✨",
+          "title": "New Feature",
+          "items": [
+            "Add interactive deployment workflow\n     dashboard prompt with educational TUI\n     guide"
           ]
         },
         {
           "icon": "📝",
           "title": "Documentation",
           "items": [
+            "Add V3 restructure with 1-6 numbering\n     and Deploy vs Prod workflow explanation",
+            "Add simplified V2 restructure proposal\n     with minimal numbering"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-24",
+          "type": "feat",
+          "message": "Add interactive deployment workflow dashboard prompt with educational TUI guide",
+          "body": ""
+        },
+        {
+          "date": "2025-11-24",
+          "type": "docs",
+          "message": "Add V3 restructure with 1-6 numbering and Deploy vs Prod workflow explanation",
+          "body": ""
+        },
+        {
+          "date": "2025-11-24",
+          "type": "docs",
+          "message": "Add simplified V2 restructure proposal with minimal numbering",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "title": "ENHANCE DASHBOARD PROMPT",
+      "date": "2025-11-23",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Enhance dashboard prompt with strong\n     UI/UX design focus using rich library",
+            "Update dashboard prompt to specify using\n     Task tool with general-purpose agent"
+          ]
+        },
+        {
+          "icon": "✨",
+          "title": "New Feature",
+          "items": [
+            "Add development dashboard prompt for\n     Pomodoro timer and session tracking"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-11-23",
+          "type": "docs",
+          "message": "Enhance dashboard prompt with strong UI/UX design focus using rich library",
+          "body": ""
+        },
+        {
+          "date": "2025-11-23",
+          "type": "docs",
+          "message": "Update dashboard prompt to specify using Task tool with general-purpose agent",
+          "body": ""
+        },
+        {
+          "date": "2025-11-23",
+          "type": "feat",
+          "message": "Add development dashboard prompt for Pomodoro timer and session tracking",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "title": "UPDATE SESSION_SUMMARY WITH",
+      "date": "2025-11-21",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Update SESSION_SUMMARY with correct\n     xhtml2pdf install command",
             "Update SESSION_SUMMARY with PDF\n     automation",
             "Update README with session planning\n     links",
             "Add comprehensive session summary with\n     roadmap"
+          ]
+        },
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "Add xhtml2pdf support for Windows\n     compatibility"
           ]
         },
         {
@@ -41,6 +158,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-11-21",
+          "type": "docs",
+          "message": "Update SESSION_SUMMARY with correct xhtml2pdf install command",
+          "body": "Change pip install from 'weasyprint' to 'xhtml2pdf' since weasyprint"
+        },
         {
           "date": "2025-11-21",
           "type": "fix",
@@ -80,7 +203,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "title": "ADD DETAILED SCRIPT",
       "date": "2025-11-20",
       "featured": false,
@@ -123,7 +246,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "title": "MERGE PULL REQUEST",
       "date": "2025-11-19",
       "featured": false,
@@ -146,7 +269,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "title": "ADD SESSION SUMMARY",
       "date": "2025-11-20",
       "featured": false,
@@ -169,7 +292,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "title": "MERGE PULL REQUEST",
       "date": "2025-11-19",
       "featured": false,
@@ -206,7 +329,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "title": "UPDATE ROADMAP WITH",
       "date": "2025-11-20",
       "featured": false,
@@ -250,7 +373,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "title": "MOVE POC CODE",
       "date": "2025-11-19",
       "featured": false,
@@ -261,13 +384,7 @@
           "items": [
             "Move POC code to Experimental folder",
             "Merge pull request #83 from\n     CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp",
-            "Merge pull request #82 from\n     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
-            "Merge pull request #81 from\n     CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg",
-            "Merge pull request #80 from\n     CloudStrife7/claude/terminal-tales-framework-01EKC8Gfw4cstBbXbD3dz8QE",
-            "Merge pull request #79 from\n     CloudStrife7/claude/poster-image-loading-guide-01AVJbUMXNVLQA82TRQUwhEf",
-            "Merge pull request #78 from\n     CloudStrife7/claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP",
-            "Merge branch 'modularize-dos-terminal'\n     into\n     claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP",
-            "Merge pull request #77 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5"
+            "Merge pull request #82 from\n     CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa"
           ]
         }
       ],
@@ -289,95 +406,6 @@
           "type": "chore",
           "message": "Merge pull request #82 from CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa",
           "body": "5 POC arcade games with procedural audio system 01 n na e1t qf5s4 vd pff q9tmqa"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #81 from CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg",
-          "body": "Claude/create subagent configs 01 hi p2ra z zru l3 m8h jv tr1qg"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #80 from CloudStrife7/claude/terminal-tales-framework-01EKC8Gfw4cstBbXbD3dz8QE",
-          "body": "Claude/terminal tales framework 01 ekc8 gfw4cst bb xb d3dz8 qe"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #79 from CloudStrife7/claude/poster-image-loading-guide-01AVJbUMXNVLQA82TRQUwhEf",
-          "body": "Add comprehensive dynamic poster image loading guide"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #78 from CloudStrife7/claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP",
-          "body": "Add comprehensive achievement testing documentation"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge branch 'modularize-dos-terminal' into claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP",
-          "body": ""
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #77 from CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
-          "body": "docs: Update branch triage guide with deletion recommendations"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "UPDATE BRANCH TRIAGE",
-      "date": "2025-11-20",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Update branch triage guide with deletion\n     recommendations"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Update branch triage guide with deletion recommendations",
-          "body": "- Add Category 0 for 3 redundant branches to DELETE"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "MERGE PULL REQUEST",
-      "date": "2025-11-19",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Merge pull request #76 from\n     CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na",
-            "Merge pull request #75 from\n     CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #76 from CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na",
-          "body": "docs: add terminal templates, changelog agent, and snake bug analysis"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #75 from CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD",
-          "body": "Add comprehensive test matrices for notification and achievement systems"
         }
       ]
     }

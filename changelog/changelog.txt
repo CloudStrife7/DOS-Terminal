@@ -2,19 +2,60 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - ADD XHTML2PDF SUPPORT (2025-11-21)
+VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-23)
 ─────────────────────────────────────────────
-🐛 Bug Fixes
-   • Add xhtml2pdf support for Windows
-     compatibility
+🔧 Updates
+   • Merge pull request #105 from
+     CloudStrife7/modularize-with-restructure
+   • Merge pull request #104 from
+     CloudStrife7/claude/repo-restructure-planning-01WPwa5pYoh7uYpexjRrv5Xj
+
+─────────────────────────────────────────────
+
+VERSION 1.5.1 - ADD INTERACTIVE DEPLOYMENT (2025-11-24)
+─────────────────────────────────────────────
+✨ New Feature
+   • Add interactive deployment workflow
+     dashboard prompt with educational TUI
+     guide
 
 📝 Documentation
+   • Add V3 restructure with 1-6 numbering
+     and Deploy vs Prod workflow explanation
+   • Add simplified V2 restructure proposal
+     with minimal numbering
+
+─────────────────────────────────────────────
+
+VERSION 1.5.1 - ENHANCE DASHBOARD PROMPT (2025-11-23)
+─────────────────────────────────────────────
+📝 Documentation
+   • Enhance dashboard prompt with strong
+     UI/UX design focus using rich library
+   • Update dashboard prompt to specify using
+     Task tool with general-purpose agent
+
+✨ New Feature
+   • Add development dashboard prompt for
+     Pomodoro timer and session tracking
+
+─────────────────────────────────────────────
+
+VERSION 1.5.1 - UPDATE SESSION_SUMMARY WITH (2025-11-21)
+─────────────────────────────────────────────
+📝 Documentation
+   • Update SESSION_SUMMARY with correct
+     xhtml2pdf install command
    • Update SESSION_SUMMARY with PDF
      automation
    • Update README with session planning
      links
    • Add comprehensive session summary with
      roadmap
+
+🐛 Bug Fixes
+   • Add xhtml2pdf support for Windows
+     compatibility
 
 ✨ New Feature
    • Add Markdown to PDF automation with
@@ -24,7 +65,7 @@ VERSION 1.5.0 - ADD XHTML2PDF SUPPORT (2025-11-21)
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - ADD DETAILED SCRIPT (2025-11-20)
+VERSION 1.5.1 - ADD DETAILED SCRIPT (2025-11-20)
 ─────────────────────────────────────────────
 📝 Documentation
    • Add detailed script sync automation plan
@@ -37,7 +78,7 @@ VERSION 1.5.0 - ADD DETAILED SCRIPT (2025-11-20)
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
+VERSION 1.5.1 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
    • Merge pull request #87 from
@@ -45,7 +86,7 @@ VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - ADD SESSION SUMMARY (2025-11-20)
+VERSION 1.5.1 - ADD SESSION SUMMARY (2025-11-20)
 ─────────────────────────────────────────────
 📝 Documentation
    • Add session summary to README (November
@@ -53,7 +94,7 @@ VERSION 1.5.0 - ADD SESSION SUMMARY (2025-11-20)
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
+VERSION 1.5.1 - MERGE PULL REQUEST (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
    • Merge pull request #86 from
@@ -65,7 +106,7 @@ VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - UPDATE ROADMAP WITH (2025-11-20)
+VERSION 1.5.1 - UPDATE ROADMAP WITH (2025-11-20)
 ─────────────────────────────────────────────
 📝 Documentation
    • Update roadmap with branch status after
@@ -79,7 +120,7 @@ VERSION 1.5.0 - UPDATE ROADMAP WITH (2025-11-20)
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.0 - MOVE POC CODE (2025-11-19)
+VERSION 1.5.1 - MOVE POC CODE (2025-11-19)
 ─────────────────────────────────────────────
 🔧 Updates
    • Move POC code to Experimental folder
@@ -87,37 +128,6 @@ VERSION 1.5.0 - MOVE POC CODE (2025-11-19)
      CloudStrife7/claude/game-poc-canvas-013sgmqGDfWpHNc8gnfqoqmp
    • Merge pull request #82 from
      CloudStrife7/claude/create-coding-rules-01NNaE1tQF5s4VDPffQ9tmqa
-   • Merge pull request #81 from
-     CloudStrife7/claude/create-subagent-configs-01HiP2raZZruL3M8hJvTR1qg
-   • Merge pull request #80 from
-     CloudStrife7/claude/terminal-tales-framework-01EKC8Gfw4cstBbXbD3dz8QE
-   • Merge pull request #79 from
-     CloudStrife7/claude/poster-image-loading-guide-01AVJbUMXNVLQA82TRQUwhEf
-   • Merge pull request #78 from
-     CloudStrife7/claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP
-   • Merge branch 'modularize-dos-terminal'
-     into
-     claude/achievement-test-matrix-01Emw471i5wtV7f6JJHnxVLP
-   • Merge pull request #77 from
-     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - UPDATE BRANCH TRIAGE (2025-11-20)
-─────────────────────────────────────────────
-📝 Documentation
-   • Update branch triage guide with deletion
-     recommendations
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-19)
-─────────────────────────────────────────────
-🔧 Updates
-   • Merge pull request #76 from
-     CloudStrife7/claude/80-char-terminal-templates-01RJaCeW5oW1dMan5iTeb7Na
-   • Merge pull request #75 from
-     CloudStrife7/claude/achievement-testing-document-017y5eDZQMtMnUUgMmN1nXWD
 
 ─────────────────────────────────────────────
 
