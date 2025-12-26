@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-11-24T02:17:28.957028Z",
+  "generated": "2025-12-26T23:57:09.551281Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,401 +11,373 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "MERGE PULL REQUEST",
-      "date": "2025-11-23",
+      "title": "CHORE(BASEMENTOS): ADD EDITOR",
+      "date": "2025-12-26",
       "featured": false,
       "sections": [
         {
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Merge pull request #106 from\n     CloudStrife7/revert-105-modularize-with-restructure",
-            "Revert \"Modularize with restructure\"",
-            "Merge pull request #105 from\n     CloudStrife7/modularize-with-restructure",
-            "Merge pull request #104 from\n     CloudStrife7/claude/repo-restructure-planning-01WPwa5pYoh7uYpexjRrv5Xj"
+            "chore(BasementOS): Add editor utilities,\n     music.exe assets, and session docs",
+            "fix(BasementOS): Remove WEATHER from\n     Shell menu and update Screen display",
+            "style(BasementOS): Unify terminal colors\n     to #10B981 and add AM/PM clock",
+            "fix(BasementOS): Add Settings app and\n     fix changelog auto-update",
+            "Merge branch 'Restructure' into\n     claude/issue-134-basement-os-v2-enhancements-NFrOX",
+            "docs(BasementOS): Add ProTV integration\n     expert skill and reference guide",
+            "fix(BasementOS): UdonSharp compliance\n     validation per Claude.MD",
+            "fix(BasementOS): Complete DT_App_Music\n     event-driven ProTV integration",
+            "feat(BasementOS): Implement Issue #134\n     v2 enhancements",
+            "docs(specs): Update Issue #134 specs per\n     user feedback",
+            "docs(specs): Add Issue #134 BasementOS\n     v2 enhancement specifications",
+            "fix(BasementOS): Complete autonomous\n     music.exe setup wiring"
           ]
         }
       ],
       "commits": [
         {
-          "date": "2025-11-23",
+          "date": "2025-12-26",
           "type": "chore",
-          "message": "Merge pull request #106 from CloudStrife7/revert-105-modularize-with-restructure",
-          "body": "Revert \"Modularize with restructure\""
+          "message": "chore(BasementOS): Add editor utilities, music.exe assets, and session docs",
+          "body": "- Add DT_App_Music.asset and DT_App_Changelog.asset (compiled UdonSharp)"
         },
         {
-          "date": "2025-11-23",
+          "date": "2025-12-26",
           "type": "chore",
-          "message": "Revert \"Modularize with restructure\"",
+          "message": "fix(BasementOS): Remove WEATHER from Shell menu and update Screen display",
+          "body": "- Created RemoveWeatherFromMenu.cs editor script for clean array removal"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "style(BasementOS): Unify terminal colors to #10B981 and add AM/PM clock",
+          "body": "- Set all terminal colors (STRUCT, PRIMARY, HIGHLIGHT, DIM) to #10B981"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "fix(BasementOS): Add Settings app and fix changelog auto-update",
+          "body": "- Add UserSettings GameObject with DT_App_Settings component"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "Merge branch 'Restructure' into claude/issue-134-basement-os-v2-enhancements-NFrOX",
           "body": ""
         },
         {
-          "date": "2025-11-23",
+          "date": "2025-12-26",
           "type": "chore",
-          "message": "Merge pull request #105 from CloudStrife7/modularize-with-restructure",
-          "body": "Modularize with restructure"
+          "message": "docs(BasementOS): Add ProTV integration expert skill and reference guide",
+          "body": "- Create /protv-integration skill with event-driven vs polling patterns"
         },
         {
-          "date": "2025-11-23",
+          "date": "2025-12-26",
           "type": "chore",
-          "message": "Merge pull request #104 from CloudStrife7/claude/repo-restructure-planning-01WPwa5pYoh7uYpexjRrv5Xj",
-          "body": "Repository Restructure V3: 1-6 Lifecycle with Deployment Workflow Guide"
+          "message": "fix(BasementOS): UdonSharp compliance validation per Claude.MD",
+          "body": "All 5 Issue #134 implementations validated against project constitution:"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "fix(BasementOS): Complete DT_App_Music event-driven ProTV integration",
+          "body": "- Fix playlist loading by accessing titles/mainUrls arrays directly from playlistPlugin"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "feat(BasementOS): Implement Issue #134 v2 enhancements",
+          "body": "Implement all 5 major enhancements from Issue #134 specifications:"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "docs(specs): Update Issue #134 specs per user feedback",
+          "body": "Applied user preferences to all 5 feature specs:"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "docs(specs): Add Issue #134 BasementOS v2 enhancement specifications",
+          "body": "Add comprehensive UdonSharp-compliant specs for five features:"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "fix(BasementOS): Complete autonomous music.exe setup wiring",
+          "body": "Fixed three critical bugs in SetupDTAppMusic.cs for full autonomous setup:"
         }
       ]
     },
     {
-      "version": "1.5.1",
-      "title": "ADD INTERACTIVE DEPLOYMENT",
-      "date": "2025-11-24",
+      "version": "1.5.0",
+      "title": "DOCS(BASEMENTOS): ADD DT_APP_MUSIC",
+      "date": "2025-12-17",
       "featured": false,
       "sections": [
         {
-          "icon": "✨",
-          "title": "New Feature",
+          "icon": "🔧",
+          "title": "Updates",
           "items": [
-            "Add interactive deployment workflow\n     dashboard prompt with educational TUI\n     guide"
-          ]
-        },
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Add V3 restructure with 1-6 numbering\n     and Deploy vs Prod workflow explanation",
-            "Add simplified V2 restructure proposal\n     with minimal numbering"
+            "docs(BasementOS): Add DT_App_Music setup\n     guide and changelog",
+            "feat(BasementOS): Add DT_App_Music ProTV\n     playlist player"
           ]
         }
       ],
       "commits": [
         {
-          "date": "2025-11-24",
-          "type": "feat",
-          "message": "Add interactive deployment workflow dashboard prompt with educational TUI guide",
-          "body": ""
+          "date": "2025-12-17",
+          "type": "chore",
+          "message": "docs(BasementOS): Add DT_App_Music setup guide and changelog",
+          "body": "- Unity Inspector setup instructions"
         },
         {
-          "date": "2025-11-24",
-          "type": "docs",
-          "message": "Add V3 restructure with 1-6 numbering and Deploy vs Prod workflow explanation",
-          "body": ""
-        },
-        {
-          "date": "2025-11-24",
-          "type": "docs",
-          "message": "Add simplified V2 restructure proposal with minimal numbering",
-          "body": ""
+          "date": "2025-12-17",
+          "type": "chore",
+          "message": "feat(BasementOS): Add DT_App_Music ProTV playlist player",
+          "body": "- Extends TVPlugin base class for ProTV event integration"
         }
       ]
     },
     {
-      "version": "1.5.1",
-      "title": "ENHANCE DASHBOARD PROMPT",
-      "date": "2025-11-23",
+      "version": "1.5.0",
+      "title": "NOTIFICATIONS",
+      "date": "2025-12-16",
       "featured": false,
       "sections": [
         {
-          "icon": "📝",
-          "title": "Documentation",
+          "icon": "🔧",
+          "title": "Updates",
           "items": [
-            "Enhance dashboard prompt with strong\n     UI/UX design focus using rich library",
-            "Update dashboard prompt to specify using\n     Task tool with general-purpose agent"
-          ]
-        },
-        {
-          "icon": "✨",
-          "title": "New Feature",
-          "items": [
-            "Add development dashboard prompt for\n     Pomodoro timer and session tracking"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-23",
-          "type": "docs",
-          "message": "Enhance dashboard prompt with strong UI/UX design focus using rich library",
-          "body": ""
-        },
-        {
-          "date": "2025-11-23",
-          "type": "docs",
-          "message": "Update dashboard prompt to specify using Task tool with general-purpose agent",
-          "body": ""
-        },
-        {
-          "date": "2025-11-23",
-          "type": "feat",
-          "message": "Add development dashboard prompt for Pomodoro timer and session tracking",
-          "body": ""
-        }
-      ]
-    },
-    {
-      "version": "1.5.1",
-      "title": "UPDATE SESSION_SUMMARY WITH",
-      "date": "2025-11-21",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Update SESSION_SUMMARY with correct\n     xhtml2pdf install command",
-            "Update SESSION_SUMMARY with PDF\n     automation",
-            "Update README with session planning\n     links",
-            "Add comprehensive session summary with\n     roadmap"
-          ]
-        },
-        {
-          "icon": "🐛",
-          "title": "Bug Fixes",
-          "items": [
-            "Add xhtml2pdf support for Windows\n     compatibility"
+            "feat(BasementOS): Add login\n     notifications to terminal ticker",
+            "feat(BasementOS): Add terminal v2\n     enhancements - ticker, time display,\n     80-col grid, achievements"
           ]
         },
         {
           "icon": "✨",
           "title": "New Feature",
           "items": [
-            "Add Markdown to PDF automation with\n     Proton Drive sync",
-            "Add UdonSharp script sync automation\n     tool"
+            "Update terminal theme to web terminal\n     palette - Update DT_Theme.cs with new\n     color palette (Structure #064E3B,\n     Primary #10B981, Highlight #34D399, Dim\n     #0A5240, Error #F87171) - Update\n     DT_Core.cs header to 'BASEMENT OS //\n     VERSION 2' with box drawing borders and\n     [ONLINE] status - Update DT_Shell.cs to\n     use new color constants and default\n     <APP> menu type - Remove legacy welcome\n     banner (to be replaced with RSS ticker)\n     - Sync VRChat terminal colors with web\n     terminal-v2"
           ]
         }
       ],
       "commits": [
         {
-          "date": "2025-11-21",
-          "type": "docs",
-          "message": "Update SESSION_SUMMARY with correct xhtml2pdf install command",
-          "body": "Change pip install from 'weasyprint' to 'xhtml2pdf' since weasyprint"
+          "date": "2025-12-16",
+          "type": "chore",
+          "message": "feat(BasementOS): Add login notifications to terminal ticker",
+          "body": "- Added `queueIsFirstTime` variable to DT_Core for login notification integration"
         },
         {
-          "date": "2025-11-21",
-          "type": "fix",
-          "message": "Add xhtml2pdf support for Windows compatibility",
-          "body": "Add xhtml2pdf as preferred PDF converter for Windows (no external dependencies):"
+          "date": "2025-12-16",
+          "type": "chore",
+          "message": "feat(BasementOS): Add terminal v2 enhancements - ticker, time display, 80-col grid, achievements",
+          "body": "🤖 Generated with Claude Code"
         },
         {
-          "date": "2025-11-21",
-          "type": "docs",
-          "message": "Update SESSION_SUMMARY with PDF automation",
-          "body": "Add PDF automation to immediate next steps:"
-        },
-        {
-          "date": "2025-11-21",
+          "date": "2025-12-16",
           "type": "feat",
-          "message": "Add Markdown to PDF automation with Proton Drive sync",
-          "body": "Create automated PDF conversion system for reading docs on mobile:"
+          "message": "Update terminal theme to web terminal palette - Update DT_Theme.cs with new color palette (Structure #064E3B, Primary #10B981, Highlight #34D399, Dim #0A5240, Error #F87171) - Update DT_Core.cs header to 'BASEMENT OS // VERSION 2' with box drawing borders and [ONLINE] status - Update DT_Shell.cs to use new color constants and default <APP> menu type - Remove legacy welcome banner (to be replaced with RSS ticker) - Sync VRChat terminal colors with web terminal-v2",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "REMOVE REDUNDANT ROOT-LEVEL",
+      "date": "2025-12-15",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Remove redundant root-level CLAUDE.md"
+          ]
         },
         {
-          "date": "2025-11-21",
+          "icon": "📝",
+          "title": "Documentation",
+          "items": [
+            "Refactor CLAUDE.md from 979 to 167 lines\n     following HumanLayer framework"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-12-15",
+          "type": "chore",
+          "message": "Remove redundant root-level CLAUDE.md",
+          "body": "Content already exists in .claude/CLAUDE.md (lines 165-167)."
+        },
+        {
+          "date": "2025-12-15",
           "type": "docs",
-          "message": "Update README with session planning links",
-          "body": "Add section linking to planning session documents:"
+          "message": "Refactor CLAUDE.md from 979 to 167 lines following HumanLayer framework",
+          "body": "- Reduced instruction-following decay by condensing from 979 to 167 lines (83% reduction)"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "BASEMENTOS V2 TERMINAL",
+      "date": "2025-12-14",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "•",
+          "title": "Updates",
+          "items": [
+            "BasementOS v2 terminal placement and\n     interaction system setup",
+            "feat(BasementOS): Add terminal\n     interaction and station relay system",
+            "feat(BasementOS): Add JetBrains Mono\n     font and update TMP settings"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-12-14",
+          "type": "wip",
+          "message": "BasementOS v2 terminal placement and interaction system setup",
+          "body": ""
         },
         {
-          "date": "2025-11-21",
-          "type": "docs",
-          "message": "Add comprehensive session summary with roadmap",
-          "body": "Create SESSION_SUMMARY.md organizing all planning work:"
+          "date": "2025-12-14",
+          "type": "chore",
+          "message": "feat(BasementOS): Add terminal interaction and station relay system",
+          "body": "- Added DT_Interact.cs: Seats player in chair when terminal clicked"
         },
         {
-          "date": "2025-11-21",
+          "date": "2025-12-14",
+          "type": "chore",
+          "message": "feat(BasementOS): Add JetBrains Mono font and update TMP settings",
+          "body": "- Added JetBrains Mono SDF font asset for terminal display"
+        }
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "title": "FIX(BASEMENTOS): WIRE UP",
+      "date": "2025-12-13",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "fix(BasementOS): Wire up app display\n     content to core terminal buffer",
+            "BasementOS terminal development -\n     investigating display issues"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-12-13",
+          "type": "chore",
+          "message": "fix(BasementOS): Wire up app display content to core terminal buffer",
+          "body": "- Added SetContentBuffer() method to DT_Core for apps to push content"
+        },
+        {
+          "date": "2025-12-13",
+          "type": "wip",
+          "message": "BasementOS terminal development - investigating display issues",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "title": "ADD BASEMENT-OS SYNC",
+      "date": "2025-12-12",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "✨",
+          "title": "New Feature",
+          "items": [
+            "add basement-os sync workflow"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-12-12",
           "type": "feat",
-          "message": "Add UdonSharp script sync automation tool",
-          "body": "Create complete script sync system for PCVR → Quest workflow:"
+          "message": "add basement-os sync workflow",
+          "body": ""
         }
       ]
     },
     {
       "version": "1.5.1",
-      "title": "ADD DETAILED SCRIPT",
-      "date": "2025-11-20",
+      "title": "ALIGN DEVLOG AUTOMATION",
+      "date": "2025-12-11",
       "featured": false,
       "sections": [
         {
           "icon": "📝",
           "title": "Documentation",
           "items": [
-            "Add detailed script sync automation plan",
-            "Add comprehensive repository restructure\n     proposal"
+            "Align devlog automation with mission\n     statement & golden rules",
+            "Add TL;DR comparison table to\n     simplification analysis",
+            "Add devlog system simplification\n     analysis"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-12-11",
+          "type": "docs",
+          "message": "Align devlog automation with mission statement & golden rules",
+          "body": "Updates simplification plan to integrate with Issue #11:"
+        },
+        {
+          "date": "2025-12-11",
+          "type": "docs",
+          "message": "Add TL;DR comparison table to simplification analysis",
+          "body": "Shows 90% complexity reduction:"
+        },
+        {
+          "date": "2025-12-11",
+          "type": "docs",
+          "message": "Add devlog system simplification analysis",
+          "body": "Simplifies the automated devlog posting plan:"
+        }
+      ]
+    },
+    {
+      "version": "1.5.2",
+      "title": "IMPLEMENT BASEMENT OS",
+      "date": "2025-12-07",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "✨",
+          "title": "New Feature",
+          "items": [
+            "Implement Basement OS v2.1 with\n     closed-loop autonomous agent system"
           ]
         },
         {
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "Update Unity lighting and terrain asset\n     files"
+            "Merge gemini-review: BasementOS kernel\n     and apps implementation"
           ]
         }
       ],
       "commits": [
         {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Add detailed script sync automation plan",
-          "body": "Create comprehensive automation strategy for PCVR/Quest script syncing:"
+          "date": "2025-12-07",
+          "type": "feat",
+          "message": "Implement Basement OS v2.1 with closed-loop autonomous agent system",
+          "body": "## Summary"
         },
         {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Add comprehensive repository restructure proposal",
-          "body": "Create detailed proposal document for repository reorganization:"
-        },
-        {
-          "date": "2025-11-20",
+          "date": "2025-12-07",
           "type": "chore",
-          "message": "Update Unity lighting and terrain asset files",
-          "body": "Auto-modified Unity asset files including:"
-        }
-      ]
-    },
-    {
-      "version": "1.5.1",
-      "title": "MERGE PULL REQUEST",
-      "date": "2025-11-19",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Merge pull request #87 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #87 from CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
-          "body": "docs: Add session summary to README (November 20, 2025)"
-        }
-      ]
-    },
-    {
-      "version": "1.5.1",
-      "title": "ADD SESSION SUMMARY",
-      "date": "2025-11-20",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Add session summary to README (November\n     20, 2025)"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Add session summary to README (November 20, 2025)",
-          "body": "Fixes:"
-        }
-      ]
-    },
-    {
-      "version": "1.5.1",
-      "title": "MERGE PULL REQUEST",
-      "date": "2025-11-19",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Merge pull request #86 from\n     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
-            "Merge pull request #85 from\n     CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z",
-            "Merge pull request #84 from\n     CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #86 from CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5",
-          "body": "Claude/project roadmap planning 018 zl6r z6 zjq5 wfqr n6 f34o5"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #85 from CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z",
-          "body": "Add enhanced .claude/Claude.MD and restore workflow documentation"
-        },
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Merge pull request #84 from CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab",
-          "body": "Add remote content schema system with caching strategy"
-        }
-      ]
-    },
-    {
-      "version": "1.5.1",
-      "title": "UPDATE ROADMAP WITH",
-      "date": "2025-11-20",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Update roadmap with branch status after\n     Sprint 1 merges",
-            "Clean up branch triage guide - only\n     remaining branches",
-            "Update branch triage guide with actual\n     deletion status",
-            "Add merge guidelines and status tracking\n     to branch triage guide"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Update roadmap with branch status after Sprint 1 merges",
-          "body": "- Update Branch Strategy section with completed/remaining branches"
-        },
-        {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Clean up branch triage guide - only remaining branches",
-          "body": "- Remove all deleted branches from listings"
-        },
-        {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Update branch triage guide with actual deletion status",
-          "body": "- Mark 11 branches as deleted on 11-20"
-        },
-        {
-          "date": "2025-11-20",
-          "type": "docs",
-          "message": "Add merge guidelines and status tracking to branch triage guide",
-          "body": "- Add \"WHEN TO MERGE/DELETE\" descriptions for each category"
-        }
-      ]
-    },
-    {
-      "version": "1.5.1",
-      "title": "MOVE POC CODE",
-      "date": "2025-11-19",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Move POC code to Experimental folder"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-11-19",
-          "type": "chore",
-          "message": "Move POC code to Experimental folder",
-          "body": "- FamilyFeud game POC"
+          "message": "Merge gemini-review: BasementOS kernel and apps implementation",
+          "body": "Merges code-only review branch containing:"
         }
       ]
     }

@@ -2,131 +2,133 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - MERGE PULL REQUEST (2025-11-23)
+VERSION 1.5.0 - CHORE(BASEMENTOS): ADD EDITOR (2025-12-26)
 ─────────────────────────────────────────────
 🔧 Updates
-   • Merge pull request #106 from
-     CloudStrife7/revert-105-modularize-with-restructure
-   • Revert "Modularize with restructure"
-   • Merge pull request #105 from
-     CloudStrife7/modularize-with-restructure
-   • Merge pull request #104 from
-     CloudStrife7/claude/repo-restructure-planning-01WPwa5pYoh7uYpexjRrv5Xj
+   • chore(BasementOS): Add editor utilities,
+     music.exe assets, and session docs
+   • fix(BasementOS): Remove WEATHER from
+     Shell menu and update Screen display
+   • style(BasementOS): Unify terminal colors
+     to #10B981 and add AM/PM clock
+   • fix(BasementOS): Add Settings app and
+     fix changelog auto-update
+   • Merge branch 'Restructure' into
+     claude/issue-134-basement-os-v2-enhancements-NFrOX
+   • docs(BasementOS): Add ProTV integration
+     expert skill and reference guide
+   • fix(BasementOS): UdonSharp compliance
+     validation per Claude.MD
+   • fix(BasementOS): Complete DT_App_Music
+     event-driven ProTV integration
+   • feat(BasementOS): Implement Issue #134
+     v2 enhancements
+   • docs(specs): Update Issue #134 specs per
+     user feedback
+   • docs(specs): Add Issue #134 BasementOS
+     v2 enhancement specifications
+   • fix(BasementOS): Complete autonomous
+     music.exe setup wiring
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.1 - ADD INTERACTIVE DEPLOYMENT (2025-11-24)
+VERSION 1.5.0 - DOCS(BASEMENTOS): ADD DT_APP_MUSIC (2025-12-17)
 ─────────────────────────────────────────────
-✨ New Feature
-   • Add interactive deployment workflow
-     dashboard prompt with educational TUI
-     guide
-
-📝 Documentation
-   • Add V3 restructure with 1-6 numbering
-     and Deploy vs Prod workflow explanation
-   • Add simplified V2 restructure proposal
-     with minimal numbering
+🔧 Updates
+   • docs(BasementOS): Add DT_App_Music setup
+     guide and changelog
+   • feat(BasementOS): Add DT_App_Music ProTV
+     playlist player
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.1 - ENHANCE DASHBOARD PROMPT (2025-11-23)
+VERSION 1.5.0 - NOTIFICATIONS (2025-12-16)
 ─────────────────────────────────────────────
-📝 Documentation
-   • Enhance dashboard prompt with strong
-     UI/UX design focus using rich library
-   • Update dashboard prompt to specify using
-     Task tool with general-purpose agent
-
-✨ New Feature
-   • Add development dashboard prompt for
-     Pomodoro timer and session tracking
-
-─────────────────────────────────────────────
-
-VERSION 1.5.1 - UPDATE SESSION_SUMMARY WITH (2025-11-21)
-─────────────────────────────────────────────
-📝 Documentation
-   • Update SESSION_SUMMARY with correct
-     xhtml2pdf install command
-   • Update SESSION_SUMMARY with PDF
-     automation
-   • Update README with session planning
-     links
-   • Add comprehensive session summary with
-     roadmap
-
-🐛 Bug Fixes
-   • Add xhtml2pdf support for Windows
-     compatibility
+🔧 Updates
+   • feat(BasementOS): Add login
+     notifications to terminal ticker
+   • feat(BasementOS): Add terminal v2
+     enhancements - ticker, time display,
+     80-col grid, achievements
 
 ✨ New Feature
-   • Add Markdown to PDF automation with
-     Proton Drive sync
-   • Add UdonSharp script sync automation
-     tool
+   • Update terminal theme to web terminal
+     palette - Update DT_Theme.cs with new
+     color palette (Structure #064E3B,
+     Primary #10B981, Highlight #34D399, Dim
+     #0A5240, Error #F87171) - Update
+     DT_Core.cs header to 'BASEMENT OS //
+     VERSION 2' with box drawing borders and
+     [ONLINE] status - Update DT_Shell.cs to
+     use new color constants and default
+     <APP> menu type - Remove legacy welcome
+     banner (to be replaced with RSS ticker)
+     - Sync VRChat terminal colors with web
+     terminal-v2
 
 ─────────────────────────────────────────────
 
-VERSION 1.5.1 - ADD DETAILED SCRIPT (2025-11-20)
+VERSION 1.5.0 - REMOVE REDUNDANT ROOT-LEVEL (2025-12-15)
+─────────────────────────────────────────────
+🔧 Updates
+   • Remove redundant root-level CLAUDE.md
+
+📝 Documentation
+   • Refactor CLAUDE.md from 979 to 167 lines
+     following HumanLayer framework
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - BASEMENTOS V2 TERMINAL (2025-12-14)
+─────────────────────────────────────────────
+• Updates
+   • BasementOS v2 terminal placement and
+     interaction system setup
+   • feat(BasementOS): Add terminal
+     interaction and station relay system
+   • feat(BasementOS): Add JetBrains Mono
+     font and update TMP settings
+
+─────────────────────────────────────────────
+
+VERSION 1.5.0 - FIX(BASEMENTOS): WIRE UP (2025-12-13)
+─────────────────────────────────────────────
+🔧 Updates
+   • fix(BasementOS): Wire up app display
+     content to core terminal buffer
+   • BasementOS terminal development -
+     investigating display issues
+
+─────────────────────────────────────────────
+
+VERSION 1.5.1 - ADD BASEMENT-OS SYNC (2025-12-12)
+─────────────────────────────────────────────
+✨ New Feature
+   • add basement-os sync workflow
+
+─────────────────────────────────────────────
+
+VERSION 1.5.1 - ALIGN DEVLOG AUTOMATION (2025-12-11)
 ─────────────────────────────────────────────
 📝 Documentation
-   • Add detailed script sync automation plan
-   • Add comprehensive repository restructure
-     proposal
+   • Align devlog automation with mission
+     statement & golden rules
+   • Add TL;DR comparison table to
+     simplification analysis
+   • Add devlog system simplification
+     analysis
+
+─────────────────────────────────────────────
+
+VERSION 1.5.2 - IMPLEMENT BASEMENT OS (2025-12-07)
+─────────────────────────────────────────────
+✨ New Feature
+   • Implement Basement OS v2.1 with
+     closed-loop autonomous agent system
 
 🔧 Updates
-   • Update Unity lighting and terrain asset
-     files
-
-─────────────────────────────────────────────
-
-VERSION 1.5.1 - MERGE PULL REQUEST (2025-11-19)
-─────────────────────────────────────────────
-🔧 Updates
-   • Merge pull request #87 from
-     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
-
-─────────────────────────────────────────────
-
-VERSION 1.5.1 - ADD SESSION SUMMARY (2025-11-20)
-─────────────────────────────────────────────
-📝 Documentation
-   • Add session summary to README (November
-     20, 2025)
-
-─────────────────────────────────────────────
-
-VERSION 1.5.1 - MERGE PULL REQUEST (2025-11-19)
-─────────────────────────────────────────────
-🔧 Updates
-   • Merge pull request #86 from
-     CloudStrife7/claude/project-roadmap-planning-018ZL6rZ6Zjq5WfqrN6F34o5
-   • Merge pull request #85 from
-     CloudStrife7/claude/refine-claude-md-01EchzSGQuxijQDfeXfHuq6z
-   • Merge pull request #84 from
-     CloudStrife7/claude/remote-content-schema-01Uid18BdtVgj1rp6G9Dmuab
-
-─────────────────────────────────────────────
-
-VERSION 1.5.1 - UPDATE ROADMAP WITH (2025-11-20)
-─────────────────────────────────────────────
-📝 Documentation
-   • Update roadmap with branch status after
-     Sprint 1 merges
-   • Clean up branch triage guide - only
-     remaining branches
-   • Update branch triage guide with actual
-     deletion status
-   • Add merge guidelines and status tracking
-     to branch triage guide
-
-─────────────────────────────────────────────
-
-VERSION 1.5.1 - MOVE POC CODE (2025-11-19)
-─────────────────────────────────────────────
-🔧 Updates
-   • Move POC code to Experimental folder
+   • Merge gemini-review: BasementOS kernel
+     and apps implementation
 
 ─────────────────────────────────────────────
 
