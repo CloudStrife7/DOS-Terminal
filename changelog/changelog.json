@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-12-27T02:19:15.902621Z",
+  "generated": "2025-12-27T03:37:03.676552Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "STYLE(BASEMENTOS): UNIFY TERMINAL",
+      "title": "MENU SYSTEM",
       "date": "2025-12-26",
       "featured": false,
       "sections": [
@@ -19,6 +19,8 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "feat(BasementOS): Add MUSIC.EXE settings\n     menu with mute toggle",
+            "fix(BasementOS): Fix terminal UI\n     alignment and padding issues",
             "style(BasementOS): Unify terminal UI\n     with box borders and emerald palette",
             "feat(TerminalTales): Add loading screen\n     animation + story file cleanup",
             "feat(TerminalTales): Add all story\n     Markdown files + fix [D] navigation",
@@ -39,6 +41,18 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "feat(BasementOS): Add MUSIC.EXE settings menu with mute toggle",
+          "body": "- Add settings view accessible via [>] from playlist"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "fix(BasementOS): Fix terminal UI alignment and padding issues",
+          "body": "- Shell: Fix BoxRow color tag truncation, pad description column"
+        },
         {
           "date": "2025-12-26",
           "type": "chore",
@@ -310,52 +324,6 @@
           "type": "wip",
           "message": "BasementOS terminal development - investigating display issues",
           "body": ""
-        }
-      ]
-    },
-    {
-      "version": "1.5.1",
-      "title": "ADD BASEMENT-OS SYNC",
-      "date": "2025-12-12",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "✨",
-          "title": "New Feature",
-          "items": [
-            "add basement-os sync workflow"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-12-12",
-          "type": "feat",
-          "message": "add basement-os sync workflow",
-          "body": ""
-        }
-      ]
-    },
-    {
-      "version": "1.5.1",
-      "title": "ALIGN DEVLOG AUTOMATION",
-      "date": "2025-12-11",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Align devlog automation with mission\n     statement & golden rules"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-12-11",
-          "type": "docs",
-          "message": "Align devlog automation with mission statement & golden rules",
-          "body": "Updates simplification plan to integrate with Issue #11:"
         }
       ]
     }

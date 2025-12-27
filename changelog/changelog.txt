@@ -2,9 +2,13 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - STYLE(BASEMENTOS): UNIFY TERMINAL (2025-12-26)
+VERSION 1.5.0 - MENU SYSTEM (2025-12-26)
 ─────────────────────────────────────────────
 🔧 Updates
+   • feat(BasementOS): Add MUSIC.EXE settings
+     menu with mute toggle
+   • fix(BasementOS): Fix terminal UI
+     alignment and padding issues
    • style(BasementOS): Unify terminal UI
      with box borders and emerald palette
    • feat(TerminalTales): Add loading screen
@@ -106,21 +110,6 @@ VERSION 1.5.0 - FIX(BASEMENTOS): WIRE UP (2025-12-13)
      content to core terminal buffer
    • BasementOS terminal development -
      investigating display issues
-
-─────────────────────────────────────────────
-
-VERSION 1.5.1 - ADD BASEMENT-OS SYNC (2025-12-12)
-─────────────────────────────────────────────
-✨ New Feature
-   • add basement-os sync workflow
-
-─────────────────────────────────────────────
-
-VERSION 1.5.1 - ALIGN DEVLOG AUTOMATION (2025-12-11)
-─────────────────────────────────────────────
-📝 Documentation
-   • Align devlog automation with mission
-     statement & golden rules
 
 ─────────────────────────────────────────────
 
