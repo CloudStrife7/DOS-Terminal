@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-12-27T00:06:59.761618Z",
+  "generated": "2025-12-27T00:37:55.425847Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "REFACTOR(TERMINALTALES): STYLE GUIDE",
+      "title": "FEAT(TERMINALTALES): ADD ALL",
       "date": "2025-12-26",
       "featured": false,
       "sections": [
@@ -19,6 +19,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "feat(TerminalTales): Add all story\n     Markdown files + fix [D] navigation",
             "refactor(TerminalTales): Style guide\n     compliance + Markdown support",
             "chore(BasementOS): Add editor utilities,\n     music.exe assets, and session docs",
             "fix(BasementOS): Remove WEATHER from\n     Shell menu and update Screen display",
@@ -36,6 +37,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "feat(TerminalTales): Add all story Markdown files + fix [D] navigation",
+          "body": "Stories with content:"
+        },
         {
           "date": "2025-12-26",
           "type": "chore",
@@ -349,29 +356,6 @@
           "type": "docs",
           "message": "Add devlog system simplification analysis",
           "body": "Simplifies the automated devlog posting plan:"
-        }
-      ]
-    },
-    {
-      "version": "1.5.2",
-      "title": "IMPLEMENT BASEMENT OS",
-      "date": "2025-12-07",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "✨",
-          "title": "New Feature",
-          "items": [
-            "Implement Basement OS v2.1 with\n     closed-loop autonomous agent system"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-12-07",
-          "type": "feat",
-          "message": "Implement Basement OS v2.1 with closed-loop autonomous agent system",
-          "body": "## Summary"
         }
       ]
     }
