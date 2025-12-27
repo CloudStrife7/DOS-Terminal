@@ -2,9 +2,11 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - CHORE(BASEMENTOS): ADD EDITOR (2025-12-26)
+VERSION 1.5.0 - REFACTOR(TERMINALTALES): STYLE GUIDE (2025-12-26)
 ─────────────────────────────────────────────
 🔧 Updates
+   • refactor(TerminalTales): Style guide
+     compliance + Markdown support
    • chore(BasementOS): Add editor utilities,
      music.exe assets, and session docs
    • fix(BasementOS): Remove WEATHER from
@@ -125,10 +127,6 @@ VERSION 1.5.2 - IMPLEMENT BASEMENT OS (2025-12-07)
 ✨ New Feature
    • Implement Basement OS v2.1 with
      closed-loop autonomous agent system
-
-🔧 Updates
-   • Merge gemini-review: BasementOS kernel
-     and apps implementation
 
 ─────────────────────────────────────────────
 

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-12-26T23:57:09.551281Z",
+  "generated": "2025-12-27T00:06:59.761618Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "CHORE(BASEMENTOS): ADD EDITOR",
+      "title": "REFACTOR(TERMINALTALES): STYLE GUIDE",
       "date": "2025-12-26",
       "featured": false,
       "sections": [
@@ -19,6 +19,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "refactor(TerminalTales): Style guide\n     compliance + Markdown support",
             "chore(BasementOS): Add editor utilities,\n     music.exe assets, and session docs",
             "fix(BasementOS): Remove WEATHER from\n     Shell menu and update Screen display",
             "style(BasementOS): Unify terminal colors\n     to #10B981 and add AM/PM clock",
@@ -35,6 +36,12 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "refactor(TerminalTales): Style guide compliance + Markdown support",
+          "body": "BREAKING: Complete rewrite of DT_App_Tales (972 -> 389 lines)"
+        },
         {
           "date": "2025-12-26",
           "type": "chore",
@@ -357,13 +364,6 @@
           "items": [
             "Implement Basement OS v2.1 with\n     closed-loop autonomous agent system"
           ]
-        },
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Merge gemini-review: BasementOS kernel\n     and apps implementation"
-          ]
         }
       ],
       "commits": [
@@ -372,12 +372,6 @@
           "type": "feat",
           "message": "Implement Basement OS v2.1 with closed-loop autonomous agent system",
           "body": "## Summary"
-        },
-        {
-          "date": "2025-12-07",
-          "type": "chore",
-          "message": "Merge gemini-review: BasementOS kernel and apps implementation",
-          "body": "Merges code-only review branch containing:"
         }
       ]
     }
