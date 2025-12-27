@@ -2,9 +2,13 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - FEAT(TERMINALTALES): ADD ALL (2025-12-26)
+VERSION 1.5.0 - STYLE(BASEMENTOS): UNIFY TERMINAL (2025-12-26)
 ─────────────────────────────────────────────
 🔧 Updates
+   • style(BasementOS): Unify terminal UI
+     with box borders and emerald palette
+   • feat(TerminalTales): Add loading screen
+     animation + story file cleanup
    • feat(TerminalTales): Add all story
      Markdown files + fix [D] navigation
    • refactor(TerminalTales): Style guide
@@ -117,10 +121,6 @@ VERSION 1.5.1 - ALIGN DEVLOG AUTOMATION (2025-12-11)
 📝 Documentation
    • Align devlog automation with mission
      statement & golden rules
-   • Add TL;DR comparison table to
-     simplification analysis
-   • Add devlog system simplification
-     analysis
 
 ─────────────────────────────────────────────
 

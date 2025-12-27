@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-12-27T00:37:55.425847Z",
+  "generated": "2025-12-27T02:19:15.902621Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "FEAT(TERMINALTALES): ADD ALL",
+      "title": "STYLE(BASEMENTOS): UNIFY TERMINAL",
       "date": "2025-12-26",
       "featured": false,
       "sections": [
@@ -19,6 +19,8 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "style(BasementOS): Unify terminal UI\n     with box borders and emerald palette",
+            "feat(TerminalTales): Add loading screen\n     animation + story file cleanup",
             "feat(TerminalTales): Add all story\n     Markdown files + fix [D] navigation",
             "refactor(TerminalTales): Style guide\n     compliance + Markdown support",
             "chore(BasementOS): Add editor utilities,\n     music.exe assets, and session docs",
@@ -37,6 +39,18 @@
         }
       ],
       "commits": [
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "style(BasementOS): Unify terminal UI with box borders and emerald palette",
+          "body": "- Add Terminal_Style_Guide.md documenting unified format"
+        },
+        {
+          "date": "2025-12-26",
+          "type": "chore",
+          "message": "feat(TerminalTales): Add loading screen animation + story file cleanup",
+          "body": "- Add animated loading screen between story selection and reading"
+        },
         {
           "date": "2025-12-26",
           "type": "chore",
@@ -332,9 +346,7 @@
           "icon": "📝",
           "title": "Documentation",
           "items": [
-            "Align devlog automation with mission\n     statement & golden rules",
-            "Add TL;DR comparison table to\n     simplification analysis",
-            "Add devlog system simplification\n     analysis"
+            "Align devlog automation with mission\n     statement & golden rules"
           ]
         }
       ],
@@ -344,18 +356,6 @@
           "type": "docs",
           "message": "Align devlog automation with mission statement & golden rules",
           "body": "Updates simplification plan to integrate with Issue #11:"
-        },
-        {
-          "date": "2025-12-11",
-          "type": "docs",
-          "message": "Add TL;DR comparison table to simplification analysis",
-          "body": "Shows 90% complexity reduction:"
-        },
-        {
-          "date": "2025-12-11",
-          "type": "docs",
-          "message": "Add devlog system simplification analysis",
-          "body": "Simplifies the automated devlog posting plan:"
         }
       ]
     }
