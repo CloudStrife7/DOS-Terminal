@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-12-27T03:37:03.676552Z",
+  "generated": "2025-12-29T23:30:42.779649Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -9,6 +9,76 @@
     "bulletChar": "•"
   },
   "releases": [
+    {
+      "version": "1.5.0",
+      "title": "MERGE PULL REQUEST",
+      "date": "2025-12-29",
+      "featured": false,
+      "sections": [
+        {
+          "icon": "🔧",
+          "title": "Updates",
+          "items": [
+            "Merge pull request #149 from\n     CloudStrife7/feat/roadmap-sync-workflow"
+          ]
+        },
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "use curl instead of gh CLI for API calls",
+            "use ROADMAP_SYNC_PAT for both repos",
+            "checkout current repo first for\n     GITHUB_TOKEN context",
+            "use WEB_REPO_PAT for issue access\n     permissions"
+          ]
+        },
+        {
+          "icon": "✨",
+          "title": "New Feature",
+          "items": [
+            "add GitHub Action to sync roadmap to\n     website"
+          ]
+        }
+      ],
+      "commits": [
+        {
+          "date": "2025-12-29",
+          "type": "chore",
+          "message": "Merge pull request #149 from CloudStrife7/feat/roadmap-sync-workflow",
+          "body": "feat: add GitHub Action to sync roadmap to website"
+        },
+        {
+          "date": "2025-12-29",
+          "type": "fix",
+          "message": "use curl instead of gh CLI for API calls",
+          "body": ""
+        },
+        {
+          "date": "2025-12-29",
+          "type": "fix",
+          "message": "use ROADMAP_SYNC_PAT for both repos",
+          "body": ""
+        },
+        {
+          "date": "2025-12-29",
+          "type": "fix",
+          "message": "checkout current repo first for GITHUB_TOKEN context",
+          "body": ""
+        },
+        {
+          "date": "2025-12-29",
+          "type": "fix",
+          "message": "use WEB_REPO_PAT for issue access permissions",
+          "body": ""
+        },
+        {
+          "date": "2025-12-29",
+          "type": "feat",
+          "message": "add GitHub Action to sync roadmap to website",
+          "body": "Triggers on issue events (opened, edited, closed, labeled, etc.)"
+        }
+      ]
+    },
     {
       "version": "1.5.0",
       "title": "MENU SYSTEM",
@@ -236,13 +306,6 @@
           "items": [
             "Remove redundant root-level CLAUDE.md"
           ]
-        },
-        {
-          "icon": "📝",
-          "title": "Documentation",
-          "items": [
-            "Refactor CLAUDE.md from 979 to 167 lines\n     following HumanLayer framework"
-          ]
         }
       ],
       "commits": [
@@ -251,79 +314,6 @@
           "type": "chore",
           "message": "Remove redundant root-level CLAUDE.md",
           "body": "Content already exists in .claude/CLAUDE.md (lines 165-167)."
-        },
-        {
-          "date": "2025-12-15",
-          "type": "docs",
-          "message": "Refactor CLAUDE.md from 979 to 167 lines following HumanLayer framework",
-          "body": "- Reduced instruction-following decay by condensing from 979 to 167 lines (83% reduction)"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "BASEMENTOS V2 TERMINAL",
-      "date": "2025-12-14",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "•",
-          "title": "Updates",
-          "items": [
-            "BasementOS v2 terminal placement and\n     interaction system setup",
-            "feat(BasementOS): Add terminal\n     interaction and station relay system",
-            "feat(BasementOS): Add JetBrains Mono\n     font and update TMP settings"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-12-14",
-          "type": "wip",
-          "message": "BasementOS v2 terminal placement and interaction system setup",
-          "body": ""
-        },
-        {
-          "date": "2025-12-14",
-          "type": "chore",
-          "message": "feat(BasementOS): Add terminal interaction and station relay system",
-          "body": "- Added DT_Interact.cs: Seats player in chair when terminal clicked"
-        },
-        {
-          "date": "2025-12-14",
-          "type": "chore",
-          "message": "feat(BasementOS): Add JetBrains Mono font and update TMP settings",
-          "body": "- Added JetBrains Mono SDF font asset for terminal display"
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "FIX(BASEMENTOS): WIRE UP",
-      "date": "2025-12-13",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "fix(BasementOS): Wire up app display\n     content to core terminal buffer",
-            "BasementOS terminal development -\n     investigating display issues"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-12-13",
-          "type": "chore",
-          "message": "fix(BasementOS): Wire up app display content to core terminal buffer",
-          "body": "- Added SetContentBuffer() method to DT_Core for apps to push content"
-        },
-        {
-          "date": "2025-12-13",
-          "type": "wip",
-          "message": "BasementOS terminal development - investigating display issues",
-          "body": ""
         }
       ]
     }

@@ -2,6 +2,26 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
+VERSION 1.5.0 - MERGE PULL REQUEST (2025-12-29)
+─────────────────────────────────────────────
+🔧 Updates
+   • Merge pull request #149 from
+     CloudStrife7/feat/roadmap-sync-workflow
+
+🐛 Bug Fixes
+   • use curl instead of gh CLI for API calls
+   • use ROADMAP_SYNC_PAT for both repos
+   • checkout current repo first for
+     GITHUB_TOKEN context
+   • use WEB_REPO_PAT for issue access
+     permissions
+
+✨ New Feature
+   • add GitHub Action to sync roadmap to
+     website
+
+─────────────────────────────────────────────
+
 VERSION 1.5.0 - MENU SYSTEM (2025-12-26)
 ─────────────────────────────────────────────
 🔧 Updates
@@ -84,32 +104,6 @@ VERSION 1.5.0 - REMOVE REDUNDANT ROOT-LEVEL (2025-12-15)
 ─────────────────────────────────────────────
 🔧 Updates
    • Remove redundant root-level CLAUDE.md
-
-📝 Documentation
-   • Refactor CLAUDE.md from 979 to 167 lines
-     following HumanLayer framework
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - BASEMENTOS V2 TERMINAL (2025-12-14)
-─────────────────────────────────────────────
-• Updates
-   • BasementOS v2 terminal placement and
-     interaction system setup
-   • feat(BasementOS): Add terminal
-     interaction and station relay system
-   • feat(BasementOS): Add JetBrains Mono
-     font and update TMP settings
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - FIX(BASEMENTOS): WIRE UP (2025-12-13)
-─────────────────────────────────────────────
-🔧 Updates
-   • fix(BasementOS): Wire up app display
-     content to core terminal buffer
-   • BasementOS terminal development -
-     investigating display issues
 
 ─────────────────────────────────────────────
 
