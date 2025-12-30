@@ -2,23 +2,30 @@
         LOWER LEVEL 2.0 - CHANGELOG
 ═════════════════════════════════════════════
 
-VERSION 1.5.0 - MERGE PULL REQUEST (2025-12-29)
+VERSION 1.5.0 - MERGE BRANCH 'FEAT/ROADMAP-SYNC-WORKFLOW' (2025-12-29)
 ─────────────────────────────────────────────
 🔧 Updates
+   • Merge branch
+     'feat/roadmap-sync-workflow' into
+     Restructure
    • Merge pull request #149 from
      CloudStrife7/feat/roadmap-sync-workflow
 
+✨ New Feature
+   • add milestone and label colors to
+     roadmap JSON
+   • add GitHub Action to sync roadmap to
+     website
+
 🐛 Bug Fixes
+   • improve roadmap sync with pagination,
+     error handling, and scheduling
    • use curl instead of gh CLI for API calls
    • use ROADMAP_SYNC_PAT for both repos
    • checkout current repo first for
      GITHUB_TOKEN context
    • use WEB_REPO_PAT for issue access
      permissions
-
-✨ New Feature
-   • add GitHub Action to sync roadmap to
-     website
 
 ─────────────────────────────────────────────
 
@@ -79,31 +86,6 @@ VERSION 1.5.0 - NOTIFICATIONS (2025-12-16)
 🔧 Updates
    • feat(BasementOS): Add login
      notifications to terminal ticker
-   • feat(BasementOS): Add terminal v2
-     enhancements - ticker, time display,
-     80-col grid, achievements
-
-✨ New Feature
-   • Update terminal theme to web terminal
-     palette - Update DT_Theme.cs with new
-     color palette (Structure #064E3B,
-     Primary #10B981, Highlight #34D399, Dim
-     #0A5240, Error #F87171) - Update
-     DT_Core.cs header to 'BASEMENT OS //
-     VERSION 2' with box drawing borders and
-     [ONLINE] status - Update DT_Shell.cs to
-     use new color constants and default
-     <APP> menu type - Remove legacy welcome
-     banner (to be replaced with RSS ticker)
-     - Sync VRChat terminal colors with web
-     terminal-v2
-
-─────────────────────────────────────────────
-
-VERSION 1.5.0 - REMOVE REDUNDANT ROOT-LEVEL (2025-12-15)
-─────────────────────────────────────────────
-🔧 Updates
-   • Remove redundant root-level CLAUDE.md
 
 ─────────────────────────────────────────────
 

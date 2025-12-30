@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2025-12-29T23:30:42.779649Z",
+  "generated": "2025-12-30T01:17:11.583182Z",
   "formatting": {
     "dividerWidth": 45,
     "dividerChar": "═",
@@ -11,7 +11,7 @@
   "releases": [
     {
       "version": "1.5.0",
-      "title": "MERGE PULL REQUEST",
+      "title": "MERGE BRANCH 'FEAT/ROADMAP-SYNC-WORKFLOW'",
       "date": "2025-12-29",
       "featured": false,
       "sections": [
@@ -19,28 +19,49 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
+            "Merge branch\n     'feat/roadmap-sync-workflow' into\n     Restructure",
             "Merge pull request #149 from\n     CloudStrife7/feat/roadmap-sync-workflow"
-          ]
-        },
-        {
-          "icon": "🐛",
-          "title": "Bug Fixes",
-          "items": [
-            "use curl instead of gh CLI for API calls",
-            "use ROADMAP_SYNC_PAT for both repos",
-            "checkout current repo first for\n     GITHUB_TOKEN context",
-            "use WEB_REPO_PAT for issue access\n     permissions"
           ]
         },
         {
           "icon": "✨",
           "title": "New Feature",
           "items": [
+            "add milestone and label colors to\n     roadmap JSON",
             "add GitHub Action to sync roadmap to\n     website"
+          ]
+        },
+        {
+          "icon": "🐛",
+          "title": "Bug Fixes",
+          "items": [
+            "improve roadmap sync with pagination,\n     error handling, and scheduling",
+            "use curl instead of gh CLI for API calls",
+            "use ROADMAP_SYNC_PAT for both repos",
+            "checkout current repo first for\n     GITHUB_TOKEN context",
+            "use WEB_REPO_PAT for issue access\n     permissions"
           ]
         }
       ],
       "commits": [
+        {
+          "date": "2025-12-29",
+          "type": "chore",
+          "message": "Merge branch 'feat/roadmap-sync-workflow' into Restructure",
+          "body": ""
+        },
+        {
+          "date": "2025-12-29",
+          "type": "feat",
+          "message": "add milestone and label colors to roadmap JSON",
+          "body": "- Include milestone name per issue for status display"
+        },
+        {
+          "date": "2025-12-29",
+          "type": "fix",
+          "message": "improve roadmap sync with pagination, error handling, and scheduling",
+          "body": "- Add pagination to fetch ALL issues/milestones (not just first page)"
+        },
         {
           "date": "2025-12-29",
           "type": "chore",
@@ -261,15 +282,7 @@
           "icon": "🔧",
           "title": "Updates",
           "items": [
-            "feat(BasementOS): Add login\n     notifications to terminal ticker",
-            "feat(BasementOS): Add terminal v2\n     enhancements - ticker, time display,\n     80-col grid, achievements"
-          ]
-        },
-        {
-          "icon": "✨",
-          "title": "New Feature",
-          "items": [
-            "Update terminal theme to web terminal\n     palette - Update DT_Theme.cs with new\n     color palette (Structure #064E3B,\n     Primary #10B981, Highlight #34D399, Dim\n     #0A5240, Error #F87171) - Update\n     DT_Core.cs header to 'BASEMENT OS //\n     VERSION 2' with box drawing borders and\n     [ONLINE] status - Update DT_Shell.cs to\n     use new color constants and default\n     <APP> menu type - Remove legacy welcome\n     banner (to be replaced with RSS ticker)\n     - Sync VRChat terminal colors with web\n     terminal-v2"
+            "feat(BasementOS): Add login\n     notifications to terminal ticker"
           ]
         }
       ],
@@ -279,41 +292,6 @@
           "type": "chore",
           "message": "feat(BasementOS): Add login notifications to terminal ticker",
           "body": "- Added `queueIsFirstTime` variable to DT_Core for login notification integration"
-        },
-        {
-          "date": "2025-12-16",
-          "type": "chore",
-          "message": "feat(BasementOS): Add terminal v2 enhancements - ticker, time display, 80-col grid, achievements",
-          "body": "🤖 Generated with Claude Code"
-        },
-        {
-          "date": "2025-12-16",
-          "type": "feat",
-          "message": "Update terminal theme to web terminal palette - Update DT_Theme.cs with new color palette (Structure #064E3B, Primary #10B981, Highlight #34D399, Dim #0A5240, Error #F87171) - Update DT_Core.cs header to 'BASEMENT OS // VERSION 2' with box drawing borders and [ONLINE] status - Update DT_Shell.cs to use new color constants and default <APP> menu type - Remove legacy welcome banner (to be replaced with RSS ticker) - Sync VRChat terminal colors with web terminal-v2",
-          "body": ""
-        }
-      ]
-    },
-    {
-      "version": "1.5.0",
-      "title": "REMOVE REDUNDANT ROOT-LEVEL",
-      "date": "2025-12-15",
-      "featured": false,
-      "sections": [
-        {
-          "icon": "🔧",
-          "title": "Updates",
-          "items": [
-            "Remove redundant root-level CLAUDE.md"
-          ]
-        }
-      ],
-      "commits": [
-        {
-          "date": "2025-12-15",
-          "type": "chore",
-          "message": "Remove redundant root-level CLAUDE.md",
-          "body": "Content already exists in .claude/CLAUDE.md (lines 165-167)."
         }
       ]
     }
