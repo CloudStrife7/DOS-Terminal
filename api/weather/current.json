@@ -1,8 +1,8 @@
 {
   "temperature": "14°F",
-  "condition": "Overcast",
+  "condition": "Light snow",
   "location": "Fond du Lac, WI",
-  "timestamp": "2026-01-17 15:33:19",
-  "last_updated": 1768663999.580647,
+  "timestamp": "2026-01-17 15:43:45",
+  "last_updated": 1768664625.732618,
   "status": "online"
 }
