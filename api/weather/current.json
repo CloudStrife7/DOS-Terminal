@@ -1,8 +1,8 @@
 {
-  "temperature": "-3°F",
-  "condition": "Mist",
+  "temperature": "-1°F",
+  "condition": "Partly Cloudy",
   "location": "Fond du Lac, WI",
-  "timestamp": "2026-01-19 18:17:45",
-  "last_updated": 1768846665.77482,
+  "timestamp": "2026-01-19 18:50:26",
+  "last_updated": 1768848626.977717,
   "status": "online"
 }
